@@ -1,0 +1,1009 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 96.4rem;
+}.select-Zj3 {
+  padding: 2.4rem 15.2rem 2.4rem 3.2rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  box-sizing: border-box;
+
+  .auto-group-h2vy-dU1 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 10.8rem 6.5rem 0rem;
+
+    .calendar-maD {
+      margin-bottom: 4.9rem;
+      line-height: 1.2175;
+      color: #424f65;
+      font-family: Montserrat, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+      font-size: 3.6rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .calendar-SwF {
+      background-color: #ffffff;
+      margin-left: 3rem;
+      width: 27.1rem;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 0.8rem 1.6rem rgba(142, 141, 208, 0.1199999973);
+      border-radius: 0.4rem;
+      flex-shrink: 0;
+
+      .frame-12-nkD {
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 1.1rem 11.25rem 1.1rem 10.85rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: #ebebf6;
+
+        .item-2021-vrR {
+          color: #99b7f0;
+          white-space: nowrap;
+          flex-shrink: 0;
+          margin-right: 0.8rem;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.4rem;
+          line-height: 1.2000000817;
+          display: flex;
+          font-weight: 700;
+          font-family: Nunito Sans, 'Source Sans Pro';
+        }
+        .arrowdown-pwo {
+          vertical-align: top;
+          flex-shrink: 0;
+          width: 0.8rem;
+          height: 0.4rem;
+          object-fit: contain;
+        }
+      }
+      .auto-group-npwd-KtZ {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        box-sizing: border-box;
+        padding: 0.8rem 1.2rem 1.783rem 1.2rem;
+
+        .frame-11-EEq {
+          margin-bottom: 1.3833rem;
+          box-sizing: border-box;
+          padding: 0.2rem;
+          width: 100%;
+          display: flex;
+          column-gap: 6.4rem;
+          align-items: center;
+          flex-shrink: 0;
+
+          .outlined-directions-arrows-in-circle-left-yCR {
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+            width: 2rem;
+            height: 2rem;
+            position: relative;
+          }
+          .item--hu7 {
+            align-items: center;
+            font-size: 1.6rem;
+            flex-shrink: 0;
+            white-space: nowrap;
+            display: flex;
+            justify-content: center;
+            font-weight: 700;
+            line-height: 1.2000000477;
+            color: #99b7f0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+          }
+          .outlined-directions-arrows-in-circle-right-pTw {
+            height: 2rem;
+            position: relative;
+            object-fit: contain;
+            vertical-align: top;
+            flex-shrink: 0;
+            width: 2rem;
+          }
+        }
+        .frame-1083-Xt9 {
+          width: 100%;
+          height: 2.4rem;
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+          flex-shrink: 0;
+          margin-bottom: 1.1667rem;
+
+          .day-GKw {
+            align-items: center;
+            color: #9e9eb0;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            background-color: #ffffff;
+            width: 2.4rem;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            font-size: 1.2rem;
+            line-height: 1.3333333333;
+          }
+          .day-7rM {
+            white-space: nowrap;
+            flex-shrink: 0;
+            font-weight: 400;
+            line-height: 1.3333333333;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            margin-right: 1.3167rem;
+            height: 100%;
+            font-size: 1.2rem;
+            justify-content: center;
+            color: #9e9eb0;
+            background-color: #ffffff;
+            width: 2.4rem;
+            display: flex;
+            align-items: center;
+          }
+          .day-Rs3 {
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            display: flex;
+            line-height: 1.3333333333;
+            color: #9e9eb0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            width: 2.4rem;
+            font-weight: 400;
+            background-color: #ffffff;
+            flex-shrink: 0;
+            font-size: 1.2rem;
+          }
+          .day-vYu {
+            margin-right: 1.3167rem;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 400;
+            background-color: #ffffff;
+            width: 2.4rem;
+            display: flex;
+            line-height: 1.3333333333;
+            color: #9e9eb0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .day-3Nd {
+            height: 100%;
+            align-items: center;
+            line-height: 1.3333333333;
+            white-space: nowrap;
+            flex-shrink: 0;
+            justify-content: center;
+            display: flex;
+            font-weight: 400;
+            background-color: #ffffff;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            font-size: 1.2rem;
+            color: #9e9eb0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+          }
+          .day-hi5 {
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 400;
+            color: #ef464b;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            line-height: 1.3333333333;
+            flex-shrink: 0;
+            background-color: #ffffff;
+            height: 100%;
+            display: flex;
+            align-items: center;
+          }
+          .day-cq3 {
+            font-size: 1.2rem;
+            color: #ef464b;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            width: 2.4rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+            flex-shrink: 0;
+            justify-content: center;
+            font-weight: 400;
+            line-height: 1.3333333333;
+          }
+        }
+        .frame-1083-8oP {
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+          flex-shrink: 0;
+          margin-bottom: 1.1667rem;
+          width: 100%;
+          height: 2.4rem;
+
+          .auto-group-robh-HRP {
+            padding: 0.25rem 1.667rem 0.25rem 0.35rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            flex-shrink: 0;
+            box-sizing: border-box;
+
+            .item-01-mLZ {
+              align-items: center;
+              justify-content: center;
+              font-family: Nunito Sans, 'Source Sans Pro';
+              flex-shrink: 0;
+              margin-right: 2.0167rem;
+              display: flex;
+              font-size: 1.4rem;
+              font-weight: 400;
+              line-height: 1.2999999183;
+              color: #c4c0da;
+              white-space: nowrap;
+            }
+            .item-01-J5b {
+              white-space: nowrap;
+              flex-shrink: 0;
+              align-items: center;
+              font-size: 1.4rem;
+              color: #c4c0da;
+              font-family: Nunito Sans, 'Source Sans Pro';
+              line-height: 1.2999999183;
+              margin-right: 2.0167rem;
+              display: flex;
+              justify-content: center;
+              font-weight: 400;
+            }
+            .item-01-QeR {
+              display: flex;
+              align-items: center;
+              font-size: 1.4rem;
+              line-height: 1.2999999183;
+              color: #c4c0da;
+              justify-content: center;
+              font-weight: 400;
+              font-family: Nunito Sans, 'Source Sans Pro';
+              white-space: nowrap;
+              flex-shrink: 0;
+            }
+          }
+          .day-XU9 {
+            font-family: Nunito Sans, 'Source Sans Pro';
+            flex-shrink: 0;
+            align-items: center;
+            font-weight: 400;
+            white-space: nowrap;
+            background-color: #ffffff;
+            height: 100%;
+            font-size: 1.4rem;
+            display: flex;
+            justify-content: center;
+            line-height: 1.2999999183;
+            color: #212121;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+          }
+          .day-owT {
+            width: 2.4rem;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            display: flex;
+            font-size: 1.4rem;
+            color: #212121;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            height: 100%;
+            line-height: 1.2999999183;
+            background-color: #ffffff;
+          }
+          .day-W5B {
+            background-color: #ffffff;
+            align-items: center;
+            white-space: nowrap;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            font-size: 1.4rem;
+            height: 100%;
+            display: flex;
+            line-height: 1.2999999183;
+            color: #212121;
+            flex-shrink: 0;
+            justify-content: center;
+            font-weight: 400;
+          }
+          .day-c8D {
+            align-items: center;
+            color: #212121;
+            flex-shrink: 0;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            width: 2.4rem;
+            background-color: #ffffff;
+          }
+        }
+        .frame-1083-XW5 {
+          flex-shrink: 0;
+          margin-bottom: 1.1667rem;
+          width: 100%;
+          height: 2.4rem;
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+
+          .day-cGd {
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            display: flex;
+            flex-shrink: 0;
+            background-color: #ffffff;
+            width: 2.4rem;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            margin-right: 1.3167rem;
+            white-space: nowrap;
+            color: #212121;
+          }
+          .day-XPb {
+            width: 2.4rem;
+            align-items: center;
+            line-height: 1.2999999183;
+            color: #212121;
+            height: 100%;
+            display: flex;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            font-size: 1.4rem;
+            font-weight: 400;
+            background-color: #ffffff;
+          }
+          .day-FKb {
+            font-family: Nunito Sans, 'Source Sans Pro';
+            background-color: #ffffff;
+            width: 2.4rem;
+            height: 100%;
+            font-size: 1.4rem;
+            color: #212121;
+            line-height: 1.2999999183;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+            align-items: center;
+            white-space: nowrap;
+          }
+          .day-UCM {
+            align-items: center;
+            color: #212121;
+            background-color: #ffffff;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            height: 100%;
+            display: flex;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            justify-content: center;
+            font-size: 1.4rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .day-b25 {
+            justify-content: center;
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            margin-right: 1.3167rem;
+            height: 100%;
+            font-size: 1.4rem;
+            font-weight: 400;
+            background-color: #ffffff;
+            align-items: center;
+            color: #212121;
+            flex-shrink: 0;
+            width: 2.4rem;
+            display: flex;
+            white-space: nowrap;
+          }
+          .day-uYZ {
+            color: #ffffff;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            line-height: 1.2999999183;
+            border-radius: 0.2rem;
+            margin-right: 1.3167rem;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            background-color: #99b7f0;
+            width: 2.4rem;
+            display: flex;
+            flex-shrink: 0;
+            height: 100%;
+            font-weight: 400;
+          }
+          .day-MQZ {
+            justify-content: center;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            flex-shrink: 0;
+            width: 2.4rem;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 1.4rem;
+            background-color: #ffffff;
+          }
+        }
+        .frame-1083-gBw {
+          width: 100%;
+          height: 2.4rem;
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+          flex-shrink: 0;
+          margin-bottom: 1.1667rem;
+
+          .day-pZ3 {
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            height: 100%;
+            display: flex;
+            width: 2.4rem;
+            justify-content: center;
+            font-weight: 400;
+            background-color: #ffffff;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            align-items: center;
+            font-size: 1.4rem;
+            line-height: 1.2999999183;
+          }
+          .day-LnH {
+            font-size: 1.4rem;
+            line-height: 1.2999999183;
+            color: #212121;
+            white-space: nowrap;
+            flex-shrink: 0;
+            justify-content: center;
+            font-weight: 400;
+            background-color: #ffffff;
+            height: 100%;
+            width: 2.4rem;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            margin-right: 1.3167rem;
+            align-items: center;
+            display: flex;
+          }
+          .day-rkd {
+            height: 100%;
+            width: 2.4rem;
+            font-size: 1.4rem;
+            line-height: 1.2999999183;
+            border-radius: 0.2rem;
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            background-color: #d9d9d9;
+            margin-right: 1.3167rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 400;
+            white-space: nowrap;
+            flex-shrink: 0;
+          }
+          .day-WaH {
+            background-color: #ffffff;
+            color: #212121;
+            align-items: center;
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            height: 100%;
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            width: 2.4rem;
+            justify-content: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+            flex-shrink: 0;
+            display: flex;
+          }
+          .day-BwK {
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            align-items: center;
+            font-size: 1.4rem;
+            color: #212121;
+            height: 100%;
+            justify-content: center;
+            flex-shrink: 0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            background-color: #ffffff;
+            display: flex;
+            font-weight: 400;
+            line-height: 1.2999999183;
+          }
+          .day-62h {
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            width: 2.4rem;
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            justify-content: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+            margin-right: 1.3167rem;
+            color: #212121;
+            flex-shrink: 0;
+            height: 100%;
+            background-color: #ffffff;
+          }
+          .day-C5j {
+            display: flex;
+            justify-content: center;
+            color: #212121;
+            flex-shrink: 0;
+            line-height: 1.2999999183;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            width: 2.4rem;
+            height: 100%;
+            align-items: center;
+            font-size: 1.4rem;
+            font-weight: 400;
+            background-color: #ffffff;
+          }
+        }
+        .frame-1083-rg5 {
+          background-color: #ffffff;
+          flex-shrink: 0;
+          margin-bottom: 1.1667rem;
+          width: 100%;
+          height: 2.4rem;
+          display: flex;
+          align-items: center;
+
+          .day-Jny {
+            height: 100%;
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            width: 2.4rem;
+            align-items: center;
+            line-height: 1.2999999183;
+            color: #212121;
+            margin-right: 1.3167rem;
+            display: flex;
+            justify-content: center;
+            white-space: nowrap;
+            background-color: #ffffff;
+            flex-shrink: 0;
+          }
+          .day-c2y {
+            margin-right: 1.3167rem;
+            height: 100%;
+            white-space: nowrap;
+            width: 2.4rem;
+            display: flex;
+            font-size: 1.4rem;
+            font-weight: 400;
+            color: #212121;
+            justify-content: center;
+            line-height: 1.2999999183;
+            background-color: #ffffff;
+            align-items: center;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            flex-shrink: 0;
+          }
+          .day-8GD {
+            display: flex;
+            line-height: 1.2999999183;
+            background-color: #ffffff;
+            align-items: center;
+            white-space: nowrap;
+            justify-content: center;
+            font-weight: 400;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            height: 100%;
+            font-size: 1.4rem;
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            flex-shrink: 0;
+          }
+          .day-wUZ {
+            height: 100%;
+            align-items: center;
+            line-height: 1.2999999183;
+            color: #212121;
+            margin-right: 1.3167rem;
+            display: flex;
+            flex-shrink: 0;
+            white-space: nowrap;
+            background-color: #ffffff;
+            width: 2.4rem;
+            justify-content: center;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            font-size: 1.4rem;
+          }
+          .day-G13 {
+            height: 100%;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            background-color: #ffffff;
+            line-height: 1.2999999183;
+            width: 2.4rem;
+            display: flex;
+            font-weight: 400;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            justify-content: center;
+            color: #212121;
+            align-items: center;
+            font-size: 1.4rem;
+            white-space: nowrap;
+          }
+          .day-WRB {
+            font-weight: 400;
+            color: #212121;
+            background-color: #ffffff;
+            align-items: center;
+            flex-shrink: 0;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            line-height: 1.2999999183;
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            font-size: 1.4rem;
+          }
+          .day-Pzm {
+            width: 2.4rem;
+            display: flex;
+            justify-content: center;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            color: #212121;
+            height: 100%;
+            align-items: center;
+            font-size: 1.4rem;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            background-color: #ffffff;
+            flex-shrink: 0;
+          }
+        }
+        .frame-1083-V2D {
+          width: 100%;
+          height: 2.4rem;
+          display: flex;
+          align-items: center;
+          background-color: #ffffff;
+          flex-shrink: 0;
+          box-sizing: border-box;
+          padding-right: 0.75rem;
+
+          .day-pKP {
+            justify-content: center;
+            font-size: 1.4rem;
+            background-color: #ffffff;
+            flex-shrink: 0;
+            width: 2.4rem;
+            height: 100%;
+            display: flex;
+            line-height: 1.2999999183;
+            margin-right: 1.3167rem;
+            align-items: center;
+            color: #212121;
+            white-space: nowrap;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+          }
+          .day-iff {
+            font-family: Nunito Sans, 'Source Sans Pro';
+            flex-shrink: 0;
+            width: 2.4rem;
+            align-items: center;
+            justify-content: center;
+            line-height: 1.2999999183;
+            font-weight: 400;
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            height: 100%;
+            color: #212121;
+            display: flex;
+            font-size: 1.4rem;
+            background-color: #ffffff;
+          }
+          .day-R4H {
+            margin-right: 1.3167rem;
+            width: 2.4rem;
+            align-items: center;
+            height: 100%;
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            flex-shrink: 0;
+            justify-content: center;
+            line-height: 1.2999999183;
+            white-space: nowrap;
+            display: flex;
+            color: #212121;
+            background-color: #ffffff;
+          }
+          .day-tTf {
+            font-size: 1.4rem;
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-right: 1.3167rem;
+            align-items: center;
+            line-height: 1.2999999183;
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            display: flex;
+            justify-content: center;
+            width: 2.4rem;
+            height: 100%;
+            font-weight: 400;
+            background-color: #ffffff;
+          }
+          .day-c8m {
+            display: flex;
+            color: #212121;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            margin-right: 1.3167rem;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            line-height: 1.2999999183;
+            font-weight: 400;
+            width: 2.4rem;
+            background-color: #ffffff;
+            flex-shrink: 0;
+          }
+          .day-XFj {
+            font-weight: 400;
+            white-space: nowrap;
+            flex-shrink: 0;
+            color: #212121;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.4rem;
+            font-size: 1.4rem;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            background-color: #ffffff;
+            margin-right: 2.0667rem;
+            line-height: 1.2999999183;
+          }
+          .item-01-DuF {
+            display: flex;
+            justify-content: center;
+            font-size: 1.4rem;
+            font-family: Nunito Sans, 'Source Sans Pro';
+            white-space: nowrap;
+            align-items: center;
+            font-weight: 400;
+            line-height: 1.2999999183;
+            color: #d9d9d9;
+            flex-shrink: 0;
+          }
+        }
+      }
+    }
+  }
+  .auto-group-qjvv-THo {
+    width: 5.7rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 2.2rem 21.4rem 0rem;
+
+    .today-9Ad {
+      font-size: 1.6rem;
+      white-space: nowrap;
+      font-weight: 400;
+      line-height: 1.5;
+      text-transform: uppercase;
+      color: #9b1212;
+      font-family: Montserrat, 'Source Sans Pro';
+      flex-shrink: 0;
+      margin-bottom: 1.5rem;
+      display: flex;
+    }
+    .day-gAZ {
+      width: calc(100% - 3.3rem);
+      justify-content: center;
+      font-size: 1.4rem;
+      margin: 0rem 1.6rem 0rem 1.7rem;
+      color: #212121;
+      font-weight: 400;
+      align-items: center;
+      line-height: 1.2999999183;
+      font-family: Nunito Sans, 'Source Sans Pro';
+      white-space: nowrap;
+      background-color: #d9d9d9;
+      flex-shrink: 0;
+      height: 2.4rem;
+      border-radius: 0.2rem;
+      display: flex;
+    }
+  }
+  .auto-group-vftq-u3K {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 3.6rem 21.4rem 0rem;
+    width: 7.7rem;
+
+    .default-RGZ {
+      font-weight: 400;
+      line-height: 1.5;
+      text-transform: uppercase;
+      color: #9b1212;
+      font-family: Montserrat, 'Source Sans Pro';
+      white-space: nowrap;
+      display: flex;
+      font-size: 1.6rem;
+      margin-bottom: 1.3rem;
+      flex-shrink: 0;
+    }
+    .day-9CZ {
+      justify-content: center;
+      line-height: 1.2999999183;
+      background-color: #ffffff;
+      margin: 0rem 2.7rem 0rem 2.6rem;
+      color: #212121;
+      font-family: Nunito Sans, 'Source Sans Pro';
+      align-items: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+      display: flex;
+      height: 2.4rem;
+      font-weight: 400;
+      white-space: nowrap;
+      width: calc(100% - 5.3rem);
+    }
+  }
+  .auto-group-fn2f-3Hw {
+    margin: 0rem 4.5rem 21.5rem 0rem;
+    width: 5.8rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    .active-XU1 {
+      margin-bottom: 1.4rem;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      white-space: nowrap;
+      flex-shrink: 0;
+      display: flex;
+      font-weight: 400;
+      text-transform: uppercase;
+      color: #9b1212;
+      font-family: Montserrat, 'Source Sans Pro';
+    }
+    .day-faD {
+      width: calc(100% - 3.4rem);
+      align-items: center;
+      justify-content: center;
+      font-family: Nunito Sans, 'Source Sans Pro';
+      display: flex;
+      background-color: #99b7f0;
+      flex-shrink: 0;
+      height: 2.4rem;
+      font-weight: 400;
+      border-radius: 0.2rem;
+      margin: 0 1.7rem;
+      font-size: 1.4rem;
+      line-height: 1.2999999183;
+      color: #ffffff;
+      white-space: nowrap;
+    }
+  }
+  .auto-group-g6ut-jKB {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 21.55rem;
+    align-items: center;
+
+    .inactive-5tq {
+      text-transform: uppercase;
+      color: #9b1212;
+      font-family: Montserrat, 'Source Sans Pro';
+      white-space: nowrap;
+      margin-bottom: 1.65rem;
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 1.5;
+      display: flex;
+      flex-shrink: 0;
+    }
+    .item-01-2ZB {
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 400;
+      line-height: 1.2999999183;
+      color: #d9d9d9;
+      margin-left: 0.2rem;
+      font-size: 1.4rem;
+      font-family: Nunito Sans, 'Source Sans Pro';
+      flex-shrink: 0;
+    }
+  }
+}

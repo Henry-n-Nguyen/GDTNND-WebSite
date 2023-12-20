@@ -1,0 +1,33 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 25.65rem;
+}.frame-3840-RAD {
+  font-weight: 400;
+  border: solid 0.1rem #c9c9c9;
+  box-sizing: border-box;
+  background-color: #ffac5a;
+  height: 6.4rem;
+  justify-content: center;
+  border-radius: 2rem;
+  line-height: 1.2125;
+  color: #333333;
+  white-space: nowrap;
+  align-items: center;
+  width: 100%;
+  font-size: 3.6rem;
+  font-family: Inter, 'Source Sans Pro';
+  display: flex;
+}

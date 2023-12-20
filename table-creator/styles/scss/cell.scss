@@ -1,0 +1,43 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 27.2rem;
+}.cell-WPF {
+  align-items: center;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  display: flex;
+  border: dashed 0.1rem #b9b9b9;
+  padding: 1.6rem;
+  overflow: hidden;
+
+  .typedefault-FLq {
+    width: 12rem;
+    height: 3.6rem;
+    border: solid 0.1rem #b9b9b9;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .typeheader-bQh {
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.0599999987);
+    flex-shrink: 0;
+    width: 12rem;
+    height: 3.6rem;
+    border: solid 0.1rem #b9b9b9;
+  }
+}

@@ -1,0 +1,38 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 24rem;
+}.row-PR7 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  .cell-Yoo {
+    width: 12rem;
+    height: 3.6rem;
+    border: solid 0.1rem #b9b9b9;
+    box-sizing: border-box;
+    flex-shrink: 0;
+  }
+  .cell-tsf {
+    border: solid 0.1rem #b9b9b9;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 12rem;
+    height: 3.6rem;
+  }
+}

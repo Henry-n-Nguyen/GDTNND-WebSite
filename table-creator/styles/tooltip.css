@@ -1,0 +1,43 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 46.8rem;
+}.tooltip-mtH {
+  width: 100%;
+  height: 11.6rem;
+  position: relative;
+  border-radius: 0.8rem;
+}
+.tooltip-mtH .artwork-XsT {
+  width: 46.8rem;
+  height: 11.6rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.tooltip-mtH .only-layer-styles-such-as-background-color-border-radius-etc-will-be-used-to-create-tables-you-dont-have-to-create-tables-using-the-plugin-you-can-also-create-tables-by-creating-an-instance-of-this-component-and-detaching-them-and-their-rows-if-you-change-the-styles-used-on-the-table-or-row-components-you-can-update-existing-tables-by-going-to-plugins-table-creator-settings-and-select-refresh-tables-fTs {
+  width: 41.4rem;
+  height: 8.4rem;
+  position: absolute;
+  left: 3.1rem;
+  top: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+}

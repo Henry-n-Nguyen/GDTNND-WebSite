@@ -1,0 +1,138 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.nhp-s-in-thoi-ueM {
+  box-sizing: border-box;
+  padding: 16.15rem 30.2rem;
+  width: 100%;
+  height: 102.4rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #f0e68c;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP {
+  box-sizing: border-box;
+  padding-bottom: 8.65rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-uXs {
+  margin-bottom: 8.75rem;
+  width: 100%;
+  height: 10.4rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o {
+  margin: 0 10.6rem;
+  width: calc(100% - 21.2rem);
+  height: 42.3rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF {
+  box-sizing: border-box;
+  padding-top: 3.75rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF .form-Dws {
+  margin-bottom: 14.4rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF .form-Dws .username-nEH {
+  margin-bottom: 1.7rem;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF .form-Dws .frame-3926-gqT {
+  margin-bottom: 0.25rem;
+  box-sizing: border-box;
+  padding: 1.75rem 3.1946rem;
+  width: 100%;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #f0e68c;
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF .form-Dws .password-8SZ {
+  max-width: 61.1rem;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #b0b0b0;
+  font-family: Inter, 'Source Sans Pro';
+  flex-shrink: 0;
+}
+.nhp-s-in-thoi-ueM .frame-3914-1hP .sign-in-form-b9o .frame-3929-XZF .button-qbs {
+  width: 100%;
+  height: 6.4rem;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #90ee90;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}

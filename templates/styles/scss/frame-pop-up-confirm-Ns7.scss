@@ -1,0 +1,111 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 63.2rem;
+}.frame-pop-up-confirm-hGq {
+  width: 100%;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: solid 0.1rem #000000;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  padding: 3.55rem 1.5rem 1.5rem 1.5rem;
+  align-items: center;
+  display: flex;
+
+  .frame-3961-QS9 {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0rem 6.55rem 5.05rem 6.55rem;
+    width: calc(100% - 13.1rem);
+    height: 4rem;
+
+    .frame-notification-eLV {
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      width: 41.1rem;
+      text-align: center;
+      line-height: 1.2125;
+      justify-content: center;
+      border-radius: 2rem;
+      height: calc(100% - 0.5rem);
+      font-weight: 400;
+      background-color: #f0e68c;
+      font-size: 2.8rem;
+      flex-shrink: 0;
+      margin: 0.25rem 2rem 0.25rem 0rem;
+    }
+    .icon-question-mark-circle-iLM {
+      height: 4rem;
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+      width: 4rem;
+    }
+  }
+  .frame-3962-49K {
+    height: 5.4rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+
+    .frame-notification-p8V {
+      margin-right: 26.8rem;
+      display: flex;
+      flex-shrink: 0;
+      width: 17.8rem;
+      color: #000000;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+      font-weight: 400;
+      white-space: nowrap;
+      background-color: #90ee90;
+      cursor: pointer;
+      font-size: 3.6rem;
+      line-height: 1.2125;
+      font-family: Inter, 'Source Sans Pro';
+      align-items: center;
+    }
+    .frame-notification-6bo {
+      height: 100%;
+      cursor: pointer;
+      font-family: Inter, 'Source Sans Pro';
+      align-items: center;
+      border: solid 0.1rem #32cd32;
+      background-color: #ffffff;
+      width: 15.6rem;
+      display: flex;
+      flex-shrink: 0;
+      font-weight: 400;
+      line-height: 1.2125;
+      text-align: center;
+      font-size: 3.6rem;
+      color: #32cd32;
+      white-space: nowrap;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+  }
+}

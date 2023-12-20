@@ -1,0 +1,109 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 24rem;
+}.table-1-v5b {
+  height: 10.8rem;
+  width: 100%;
+
+  .table-5jB {
+    border: solid 0.1rem #b9b9b9;
+    box-sizing: border-box;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+
+    .row-3R7 {
+      flex-shrink: 0;
+      width: 100%;
+      height: 3.6rem;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+
+      .cell-nNh {
+        flex-shrink: 0;
+        width: 12rem;
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.0599999987);
+      }
+      .cell-8SZ {
+        width: 12rem;
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+        background-color: rgba(0, 0, 0, 0.0599999987);
+        flex-shrink: 0;
+      }
+    }
+    .row-UmK {
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      width: 100%;
+      height: 3.6rem;
+      overflow: hidden;
+
+      .cell-F1P {
+        width: 12rem;
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+        flex-shrink: 0;
+      }
+      .cell-P7b {
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        width: 12rem;
+      }
+    }
+    .row-85B {
+      height: 3.6rem;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+      align-items: center;
+      flex-shrink: 0;
+      width: 100%;
+
+      .cell-VAd {
+        flex-shrink: 0;
+        width: 12rem;
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+      }
+      .cell-F9o {
+        width: 12rem;
+        height: 100%;
+        border: solid 0.1rem #b9b9b9;
+        box-sizing: border-box;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

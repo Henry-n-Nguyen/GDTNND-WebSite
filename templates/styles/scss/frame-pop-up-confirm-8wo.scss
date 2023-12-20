@@ -1,0 +1,111 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 63.2rem;
+}.frame-pop-up-confirm-tcM {
+  flex-direction: column;
+  border: solid 0.1rem #000000;
+  border-radius: 2rem;
+  padding: 3.55rem 1.5rem 1.5rem 1.5rem;
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #ffffff;
+
+  .frame-3961-dZw {
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0rem 6.55rem 5.05rem 6.55rem;
+    width: calc(100% - 13.1rem);
+    height: 4rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+
+    .frame-notification-NGd {
+      justify-content: center;
+      background-color: #f0e68c;
+      border-radius: 2rem;
+      height: calc(100% - 0.5rem);
+      line-height: 1.2125;
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      align-items: center;
+      flex-shrink: 0;
+      margin: 0.25rem 2rem 0.25rem 0rem;
+      font-size: 2.8rem;
+      font-weight: 400;
+      display: flex;
+      text-align: center;
+      width: 41.1rem;
+      white-space: nowrap;
+    }
+    .icon-question-mark-circle-Bjs {
+      width: 4rem;
+      height: 4rem;
+      object-fit: contain;
+      vertical-align: top;
+      flex-shrink: 0;
+    }
+  }
+  .frame-3962-ggd {
+    height: 5.4rem;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    width: 100%;
+
+    .frame-notification-Ey3 {
+      width: 17.8rem;
+      font-weight: 400;
+      color: #000000;
+      align-items: center;
+      margin-right: 26.8rem;
+      height: 100%;
+      flex-shrink: 0;
+      cursor: pointer;
+      text-align: center;
+      justify-content: center;
+      background-color: #90ee90;
+      font-size: 3.6rem;
+      line-height: 1.2125;
+      font-family: Inter, 'Source Sans Pro';
+      white-space: nowrap;
+      display: flex;
+    }
+    .frame-notification-jQ1 {
+      border: solid 0.1rem #32cd32;
+      width: 15.6rem;
+      font-weight: 400;
+      font-family: Inter, 'Source Sans Pro';
+      display: flex;
+      box-sizing: border-box;
+      flex-shrink: 0;
+      text-align: center;
+      line-height: 1.2125;
+      align-items: center;
+      justify-content: center;
+      color: #32cd32;
+      background-color: #ffffff;
+      height: 100%;
+      cursor: pointer;
+      font-size: 3.6rem;
+      white-space: nowrap;
+    }
+  }
+}
