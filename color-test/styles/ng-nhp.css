@@ -1,0 +1,165 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.ng-nhp-Tbb {
+  box-sizing: border-box;
+  padding: 14.7rem 30.4rem 14.8rem 30.4rem;
+  width: 100%;
+  height: 102.4rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #9b1212;
+}
+.ng-nhp-Tbb .frame-3914-9DX {
+  box-sizing: border-box;
+  padding-bottom: 10.05rem;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #e8d6d4;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-5N5 {
+  margin-bottom: 10.15rem;
+  width: 100%;
+  height: 10.4rem;
+  overflow: hidden;
+  position: relative;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  text-decoration-line: underline;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8d6d4;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h {
+  margin: 0 10.4rem;
+  width: calc(100% - 20.8rem);
+  height: 42.3rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #e8d6d4;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX {
+  box-sizing: border-box;
+  padding-top: 0.7rem;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM {
+  margin-bottom: 6.6rem;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  row-gap: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM .username-ZRf {
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM .frame-3926-c93 {
+  box-sizing: border-box;
+  padding: 1.5rem 3.1946rem;
+  width: 100%;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM .password-WVK {
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM .frame-3927-413 {
+  box-sizing: border-box;
+  padding: 1.5rem 3.1946rem;
+  width: 100%;
+  display: flex;
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #ffffff;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .form-RaM .qun-mt-khu-mRF {
+  margin-left: 43.7rem;
+  cursor: pointer;
+  text-align: right;
+  display: flex;
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #000000;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.ng-nhp-Tbb .frame-3914-9DX .sign-in-form-M4h .frame-3929-tKX .button-UaZ {
+  width: 100%;
+  height: 6.4rem;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #ffffff;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: nowrap;
+  background-color: #775652;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}

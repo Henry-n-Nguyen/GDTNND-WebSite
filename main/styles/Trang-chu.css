@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     width: 98vw;
     height: 87vw;
@@ -106,7 +111,7 @@
 
 @media (min-width: 838px) {
     .container {
-        width: 109.125vh;
+        width: 98vw;
         height: 97vh;
         border: 1px solid #cccccc;
         display: flex;
