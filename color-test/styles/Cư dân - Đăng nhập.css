@@ -14,19 +14,22 @@ input {
 }
 body {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ng-nhp-TXb {
   box-sizing: border-box;
   padding: 14.7rem 30.4rem 14.8rem 30.4rem;
-  width: 100%;
-  height: 102.4rem;
+  width: 75%;
+  height: calc(102.4rem * 0.73);
   overflow: hidden;
   position: relative;
   background-color: #9b1212;
 }
 .ng-nhp-TXb .frame-3914-nJy {
   box-sizing: border-box;
-  padding-bottom: 10.05rem;
+  padding-bottom: 3.05rem;
   width: 100%;
   height: 100%;
   align-items: center;
@@ -36,15 +39,14 @@ body {
   background-color: #e8d6d4;
 }
 .ng-nhp-TXb .frame-3914-nJy .sign-in-8Nq {
-  margin-bottom: 10.15rem;
+  margin-bottom: 3.55rem;
   width: 100%;
-  height: 10.4rem;
+  height: 6.4rem;
   overflow: hidden;
   position: relative;
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   font-weight: 400;
   line-height: 1.2125;
-  text-decoration-line: underline;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
@@ -55,9 +57,9 @@ body {
   flex-shrink: 0;
 }
 .ng-nhp-TXb .frame-3914-nJy .sign-in-form-1hX {
-  margin: 0 10.4rem;
-  width: calc(100% - 20.8rem);
-  height: 42.3rem;
+  margin: 0 5.4rem;
+  width: calc(100% - 13.8rem);
+  height: 32.3rem;
   overflow: hidden;
   position: relative;
   background-color: #e8d6d4;
@@ -75,7 +77,7 @@ body {
   flex-direction: column;
 }
 .ng-nhp-TXb .frame-3914-nJy .sign-in-form-1hX .frame-3929-Lzh .form-tFX {
-  margin-bottom: 6.6rem;
+  margin-bottom: 1rem;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -86,9 +88,9 @@ body {
 }
 .ng-nhp-TXb .frame-3914-nJy .sign-in-form-1hX .frame-3929-Lzh .form-tFX .username-E4V {
   display: flex;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 1.2125;
+  line-height: 1;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
@@ -99,9 +101,9 @@ body {
   padding: 1.5rem 3.1946rem;
   width: 100%;
   display: flex;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  line-height: 1.2125;
+  line-height: 1;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
@@ -110,9 +112,9 @@ body {
 }
 .ng-nhp-TXb .frame-3914-nJy .sign-in-form-1hX .frame-3929-Lzh .form-tFX .password-WgD {
   display: flex;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
-  line-height: 1.2125;
+  line-height: 1;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
@@ -123,9 +125,9 @@ body {
   padding: 1.5rem 3.1946rem;
   width: 100%;
   display: flex;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  line-height: 1.2125;
+  line-height: 1;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
@@ -137,7 +139,7 @@ body {
   cursor: pointer;
   text-align: right;
   display: flex;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #000000;
@@ -154,7 +156,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #ffffff;
@@ -163,4 +165,5 @@ body {
   background-color: #775652;
   border-radius: 2rem;
   flex-shrink: 0;
+  text-decoration: none;
 }
