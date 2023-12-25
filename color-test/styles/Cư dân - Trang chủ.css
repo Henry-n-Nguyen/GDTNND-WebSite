@@ -14,7 +14,11 @@ input {
 }
 body {
   width: 144rem;
-}.trang-ch-cng-dn-CH3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trang-ch-cng-dn-CH3 {
   width: 100%;
   overflow: hidden;
   position: relative;

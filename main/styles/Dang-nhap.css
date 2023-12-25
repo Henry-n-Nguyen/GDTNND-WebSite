@@ -1,169 +1,45 @@
-.nhp-s-in-thoi {
+#container {
+    width: 97vw;
+    height: calc(97vw * (1024 / 1440));
+
     display: flex;
-    flex-direction: column;
-    height: 1024px;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
-    padding: 192px 378px;
-    position: relative;
-    background-color: #9b1212;
+    align-items: center;
 }
 
-.nhp-s-in-thoi .frame {
-    position: relative;
-    width: 836px;
-    height: 701px;
-    margin-top: -30.5px;
-    margin-bottom: -30.5px;
-    margin-left: -76px;
-    margin-right: -76px;
-    background-color: #e8d6d4;
-    box-shadow: 0px 4px 4px #00000040;
+.img-responsive {
+    width: 100%;
+    height: 100%;
+
+    max-width: 1080px;
+    max-height: 768px;
 }
 
-.nhp-s-in-thoi .SIGN-IN {
-    display: flex;
-    flex-direction: column;
-    width: 836px;
-    height: 104px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+.psuedo-navigation {
+    position: absolute; 
+
+    width: 100%;
+    height: calc(100% * (768 / 1080));
+
+    max-width: 1080px;
+    max-height: 768px;
+}
+
+.psuedo-navigation .btn-forgot-password {
     position: absolute;
-    top: 0;
-    left: 0;
+    width: 15%;
+    height: 5%;
+    border: none;
     background-color: #e8d6d4;
+
+    font-family: Inter;
+    font-size: 100%;
+
+    top : 59%;
+    left : 57%;
 }
 
-.nhp-s-in-thoi .text-wrapper {
-    position: relative;
-    width: fit-content;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 36px;
-    letter-spacing: 0;
-    line-height: normal;
+.psuedo-navigation .btn-forgot-password:hover {
+    color: blue;
     text-decoration: underline;
-}
-
-.nhp-s-in-thoi .SIGN-IN-FORM {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    position: absolute;
-    top: 192px;
-    left: 106px;
-    background-color: #e8d6d4;
-}
-
-.nhp-s-in-thoi .div {
-    display: flex;
-    flex-direction: column;
-    width: 624px;
-    height: 423px;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-}
-
-.nhp-s-in-thoi .form {
-    display: flex;
-    flex-direction: column;
-    height: 238px;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-}
-
-.nhp-s-in-thoi .username {
-    position: relative;
-    align-self: stretch;
-    height: 44px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #000000;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.nhp-s-in-thoi .username-wrapper {
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    height: 69px;
-    background-color: #ffffff;
-}
-
-.nhp-s-in-thoi .username-2 {
-    position: absolute;
-    width: 560px;
-    height: 69px;
-    top: -1px;
-    left: 32px;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 28px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.nhp-s-in-thoi .password {
-    position: relative;
-    align-self: stretch;
-    height: 44px;
-    font-family: "Inter-Bold", Helvetica;
-    font-weight: 700;
-    color: #b0b0b0;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-}
-
-.nhp-s-in-thoi .button {
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    height: 64px;
-    all: unset;
-    box-sizing: border-box;
-}
-
-.nhp-s-in-thoi .overlap-group {
-    position: relative;
-    width: 624px;
-    height: 65px;
-    top: -1px;
-}
-
-.nhp-s-in-thoi .rectangle {
-    position: absolute;
-    width: 624px;
-    height: 64px;
-    top: 1px;
-    left: 0;
-    background-color: #775652;
-    border-radius: 20px;
-}
-
-.nhp-s-in-thoi .text-wrapper-2 {
-    position: absolute;
-    width: 624px;
-    height: 64px;
-    top: 0;
-    left: 0;
-    font-family: "Inter-Regular", Helvetica;
-    font-weight: 400;
-    color: #ffffff;
-    font-size: 36px;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
 }
