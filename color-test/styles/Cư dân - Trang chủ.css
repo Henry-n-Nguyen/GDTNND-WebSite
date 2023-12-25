@@ -16,15 +16,15 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .trang-ch-cng-dn-CH3 {
   width: 75%;
-  height: 100vh;
+  height: 100rem;
   overflow: hidden;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background-color: #e8d6d4;
 }
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV {
@@ -37,6 +37,10 @@ body {
   box-sizing: border-box;
   background-color: #9b1212;
   flex-shrink: 0;
+
+  position: fixed;
+  top: 0;
+  left: 12.5%;
 }
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .logo-5Lq {
   width: 100%;
@@ -67,14 +71,21 @@ body {
   padding: 2rem 2rem 2rem 2rem;
   width: 100%;
   display: flex;
+  cursor: pointer;
   align-items: center;
   background-color: #9b1212;
   flex-shrink: 0;
+  border-left: 15px solid orange;
 }
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d:hover {
+  border-left: 15px solid orange;
+}
+
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d .icon-home-Sah {
   margin: 0rem 3.6rem 0rem 0rem;
-  width: 3rem;
-  height: 2.8rem;
+  width: 4rem;
+  height: 4rem;
   object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
@@ -83,7 +94,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -101,10 +112,15 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3:hover {
+  border-left: 15px solid orange;
+}
+
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3 .icon-user-circle-alt-yyw {
   margin: 0rem 6.6rem 0rem 0rem;
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
@@ -114,7 +130,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -132,10 +148,15 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9:hover {
+  border-left: 15px solid orange;
+}
+
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9 .icon-wallet-xL5 {
   margin: 0rem 5.5rem 0rem 0rem;
-  width: 3rem;
-  height: 2.644rem;
+  width: 4rem;
+  height: 4rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
@@ -145,7 +166,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -163,10 +184,15 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5:hover {
+  border-left: 15px solid orange;
+}
+
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5 .icon-message-text-wSu {
   margin: 0rem 4.7rem 0rem 0rem;
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
@@ -176,7 +202,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -224,14 +250,17 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: solid 0.1rem #000000;
   flex-shrink: 0;
+
+  position: relative;
+  top: 10rem;
+  left: 25.6rem;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh {
   margin-bottom: 1rem;
   box-sizing: border-box;
   padding: 1.4rem 1rem;
-  width: 100%;
+  width: 88rem;
   height: 10rem;
   display: flex;
   justify-content: space-between;
@@ -239,6 +268,11 @@ body {
   border: solid 0.1rem #e8d6d4;
   background-color: #9b1212;
   flex-shrink: 0;
+  z-index: 2;
+
+  position: fixed;
+  top: 0;
+  left: calc(12.5% + 25.6rem);
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .trang-ch-Bty {
   margin: 0rem 10.4rem 4.1rem 0rem;
@@ -293,6 +327,7 @@ body {
   object-fit: cover;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K {
+  margin-top: 1rem;
   margin-bottom: 2.6rem;
   box-sizing: border-box;
   padding: 0 1.5rem;
@@ -305,7 +340,7 @@ body {
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh {
   margin-bottom: 1rem;
   width: 100%;
-  height: 14.9rem;
+  height: 12.9rem;
   display: flex;
   align-items: center;
   flex-shrink: 0;
@@ -313,7 +348,8 @@ body {
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf {
   margin: 0.1rem 2rem 0.1rem 0rem;
   box-sizing: border-box;
-  padding: 1.61rem 10.2rem 2.41rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
+  width: 51rem;
   height: calc(100% - 0.2rem);
   display: flex;
   align-items: center;
@@ -323,34 +359,14 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .icon-profile-circled-eCD {
-  margin: 1.74rem 3rem 0.94rem 0rem;
-  box-sizing: border-box;
-  padding: 1.6rem 0.908rem 1.462rem 0.909rem;
-  height: calc(100% - 2.6798rem);
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../assets/vector-CDT.png');
-  flex-shrink: 0;
-}
-.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .icon-profile-circled-eCD .vector-8NH {
-  margin: 0rem 0rem 1.4rem 0rem;
-  width: 2.4rem;
-  height: 2.4rem;
+  margin: 1rem 3rem 1rem 0rem;
+  width: 8rem;
+  height: 8rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .icon-profile-circled-eCD .vector-TQZ {
-  width: 6.1832rem;
-  height: 1.1383rem;
-  object-fit: contain;
-  vertical-align: top;
-  flex-shrink: 0;
-}
+
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .frame-3985-PZ7 {
   height: 100%;
   display: flex;
@@ -358,8 +374,8 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .frame-3985-PZ7 .p1011-x6R {
-  margin-bottom: 2.4798rem;
-  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
@@ -368,7 +384,7 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-154-8jf .frame-3985-PZ7 .c-dn-mai-nguyn-ngc-huy-5wj {
-  font-size: 2.8rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   color: #3f3f3f;
@@ -378,7 +394,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-139-BE5 {
   box-sizing: border-box;
-  padding: 1.88rem 6.8rem 2.757rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   height: 100%;
   cursor: pointer;
   display: flex;
@@ -389,10 +405,9 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-139-BE5 .icon-group-7tR {
-  margin: 0.877rem 3rem 0rem 0rem;
+  margin: 1rem 3rem 1rem 0rem;
   width: 8rem;
-  height: 6.1818rem;
-  position: relative;
+  height: 8rem;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
@@ -404,18 +419,19 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-139-BE5 .frame-3986-e7f .s-thnh-vin-Cey {
-  margin-bottom: 1.8634rem;
+  margin-bottom: 2.5rem;
+  margin-right: 3rem;
   font-size: 2.4rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.2;
-  color: #3f3f3f;
+  color: #000000;
   font-family: Lato, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-139-BE5 .frame-3986-e7f .thnh-vin-w6m {
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 400;
   line-height: 1.2;
   color: #000000;
   font-family: Lato, 'Source Sans Pro';
@@ -432,15 +448,17 @@ body {
   font-family: Nunito Sans, 'Source Sans Pro';
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3890-nvh .frame-139-BE5 .frame-3986-e7f .thnh-vin-w6m .thnh-vin-w6m-sub-1 {
-  font-size: 3.6rem;
-  font-weight: 700;
-  line-height: 1.3625;
-  color: #000000;
-  font-family: Nunito Sans, 'Source Sans Pro';
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #3f3f3f;
+  font-family: Lato, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo {
   width: 100%;
-  height: 33.4rem;
+  height: 28.4rem;
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
@@ -465,7 +483,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo .frame-m-t-ta-nh--8aZ .frame-building-image-Fv5 .thng-tin-to-nh-Qny {
   margin-bottom: 1rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 600;
   line-height: 1.2;
   color: #3f3f3f;
@@ -474,8 +492,8 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo .frame-m-t-ta-nh--8aZ .frame-building-image-Fv5 .unsplash-5q1knujtjam-jqF {
-  width: 32.8rem;
-  height: 24rem;
+  width: calc(32.8rem*0.8);
+  height: calc(24rem*0.8);
   object-fit: cover;
   vertical-align: top;
   border-radius: 0.9rem;
@@ -489,7 +507,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo .frame-m-t-ta-nh--8aZ .frame-building-description-rus .ta-vp-5-khu-th-linh-m-PQ1 {
   margin-bottom: 0.4493rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 600;
   line-height: 1.2;
   color: #000000;
@@ -504,7 +522,7 @@ body {
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo .frame-m-t-ta-nh--8aZ .frame-building-description-rus .frame-key-val-u7T .m-to-nh-doanh-nghip-thng-tin-lin-h-a-ch-4FF {
   margin-right: 0.9rem;
   max-width: 18.1rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;
@@ -512,8 +530,8 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-main-content-U9K .frame-3965-nFo .frame-m-t-ta-nh--8aZ .frame-building-description-rus .frame-key-val-u7T .vp5-tng-cng-ty-u-t-pht-trin-hud-hudgrouphudcomvn-p-nguyn-duy-trinh-khu-th-linh-m-hong-mai-h-ni-vit-nam-MVF {
-  max-width: 45.4rem;
-  font-size: 2.4rem;
+  max-width: 35.4rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2;
   color: #000000;
@@ -523,6 +541,7 @@ body {
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP {
   margin: 0 3rem;
   width: calc(100% - 6rem);
+  height: 500px;
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -540,7 +559,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .thng-bo-mi-kA1 {
   margin-bottom: 1.4rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 700;
   line-height: 1.2;
   color: #3f3f3f;
@@ -563,12 +582,12 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  border: solid 0.1rem #808080;
+  border-bottom: solid 0.1rem #808080;
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-oty .c1-wEV {
-  margin-right: 2.2167rem;
-  font-size: 2.8rem;
+  margin-right: 18.65rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #2c1512;
@@ -578,7 +597,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-oty .c4-sdw {
   margin-right: 11.65rem;
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #aeaeae;
@@ -587,8 +606,8 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-oty .c2-R9f {
-  margin-right: 27.0667rem;
-  font-size: 2.8rem;
+  margin-right: 20.0667rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #2c1512;
@@ -597,7 +616,7 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-oty .c3-AN9 {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #2c1512;
@@ -614,16 +633,16 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-  border: solid 0.1rem #808080;
+  border-bottom: solid 0.1rem #808080;
   border-radius: 0.3rem;
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-tow .auto-group-gcpm-2fF {
-  margin: 0rem 6.5rem 2rem 0rem;
+  margin: 0rem 1rem 2rem 0rem;
   box-sizing: border-box;
-  padding: 1.5rem 0;
-  width: 38.2333rem;
-  font-size: 2.8rem;
+  padding: 1rem 0 0 1.5rem;
+  width: 35rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #000000;
@@ -632,18 +651,23 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-tow .c2-vkd {
-  margin: 0rem 19.583rem 2rem 0rem;
-  font-size: 2.8rem;
+  margin: 0rem 10rem 2rem 0rem;
+  padding: 1rem 0 0 0;  
+  width: 14.5rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #000000;
   font-family: Inter, 'Source Sans Pro';
   white-space: nowrap;
   flex-shrink: 0;
+  display: flex;
+  justify-content: center;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-tow .c3-fCR {
-  margin-bottom: 2rem;
-  font-size: 2.8rem;
+  margin: 0 0 2rem 0;
+  padding: 1rem 0 0 0;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #000000;
@@ -711,6 +735,7 @@ body {
   display: flex;
   column-gap: 1.2rem;
   align-items: center;
+  justify-content: center;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .item-02-eiZ .frame-16-bNu .previous-LrH {
   font-size: 1.2rem;
@@ -728,13 +753,30 @@ body {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.2175;
-  color: #000000;
+  color: #ffffff;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #9b1212;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .item-02-eiZ .frame-16-bNu .frame-16-HFj {
+  width: 3.1rem;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.2175;
+  color: #000000;
+  font-family: Montserrat, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
   border-radius: 0.8rem;
   flex-shrink: 0;
 }
@@ -745,5 +787,5 @@ body {
   color: #9e9e9e;
   font-family: Montserrat, 'Source Sans Pro';
   white-space: nowrap;
-  flex-shrink: 0;
+  flex-shrink: 0s;
 }
