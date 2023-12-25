@@ -13,18 +13,23 @@ input {
 	border: none;
 }
 body {
-  width: 144rem;
-}.cd-chi-tit-h-dn-c-8mT {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.trang-ch-cng-dn-CH3 {
+  width: 75%;
+  height: 100rem;
   overflow: hidden;
   position: relative;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   background-color: #e8d6d4;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh {
-  width: 34.6rem;
-  height: 102.4rem;
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV {
+  width: 25.6rem;
+  height: 75rem;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -32,25 +37,28 @@ body {
   box-sizing: border-box;
   background-color: #9b1212;
   flex-shrink: 0;
+
+  position: fixed;
+  top: 0;
+  left: 12.5%;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .logo-nLD {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .logo-5Lq {
   width: 100%;
-  height: 12.7rem;
+  height: 10rem;
   overflow: hidden;
   position: relative;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj {
   box-sizing: border-box;
-  padding: 2.6rem 0rem 1rem 0rem;
+  padding: 1rem 0rem 1rem 0rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF {
-  margin-bottom: 38.6rem;
-  width: 34.5rem;
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR {
+  width: 25.5rem;
   overflow: hidden;
   position: relative;
   align-items: center;
@@ -58,29 +66,35 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .trang-ch--zBP {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d {
   box-sizing: border-box;
-  padding: 2.55rem 5.6rem 2.55rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   width: 100%;
-  cursor: pointer;
   display: flex;
+  cursor: pointer;
   align-items: center;
   background-color: #9b1212;
   flex-shrink: 0;
+  border-left: 15px solid orange;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .trang-ch--zBP .icon-home-idB {
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d:hover {
+  border-left: 15px solid orange;
+}
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d .icon-home-Sah {
   margin: 0rem 3.6rem 0rem 0rem;
   width: 4rem;
-  height: 3.5505rem;
-  object-fit: contain;
+  height: 4rem;
+  object-fit: cover;
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .trang-ch--zBP .trang-ch-qSu {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .trang-ch--72d .trang-ch-xJ9 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -88,16 +102,22 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .cn-h-8wo {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3 {
   box-sizing: border-box;
-  padding: 2.55rem 8.6rem 2.55rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   width: 100%;
+  cursor: pointer;
   display: flex;
   align-items: center;
   background-color: #9b1212;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .cn-h-8wo .icon-user-circle-alt-fRw {
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3:hover {
+  border-left: 15px solid orange;
+}
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3 .icon-user-circle-alt-yyw {
   margin: 0rem 6.6rem 0rem 0rem;
   width: 4rem;
   height: 4rem;
@@ -106,11 +126,11 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .cn-h-8wo .cn-h-Bv5 {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3 .cn-h-hf3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -118,9 +138,9 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .ha-n-Jzh {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9 {
   box-sizing: border-box;
-  padding: 2.55rem 7.5rem 2.55rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -128,20 +148,25 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .ha-n-Jzh .icon-wallet-eHs {
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9:hover {
+  border-left: 15px solid orange;
+}
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9 .icon-wallet-xL5 {
   margin: 0rem 5.5rem 0rem 0rem;
   width: 4rem;
-  height: 3.644rem;
+  height: 4rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .ha-n-Jzh .ha-n-m7b {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9 .ha-n-UJR {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -149,9 +174,9 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .phn-nh-5e5 {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5 {
   box-sizing: border-box;
-  padding: 2.55rem 6.7rem 2.55rem 3rem;
+  padding: 2rem 2rem 2rem 2rem;
   width: 100%;
   cursor: pointer;
   display: flex;
@@ -159,20 +184,25 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .phn-nh-5e5 .icon-message-text-DEV {
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5:hover {
+  border-left: 15px solid orange;
+}
+
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5 .icon-message-text-wSu {
   margin: 0rem 4.7rem 0rem 0rem;
   width: 4rem;
-  height: 3.9757rem;
+  height: 4rem;
   position: relative;
   object-fit: contain;
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .navigate-ThF .phn-nh-5e5 .phn-nh-jCq {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .phn-nh-QC5 .phn-nh-fdo {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3.6rem;
+  font-size: 2.4rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -180,7 +210,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .phn-nh-eah {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .phn-nh-oED {
   margin-right: 0.1rem;
   box-sizing: border-box;
   padding: 2.55rem 5.9rem 2.55rem 3.474rem;
@@ -191,7 +221,7 @@ body {
   background-color: #9b1212;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .phn-nh-eah .power-mfK {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .phn-nh-oED .power-vJq {
   margin: 0rem 4.376rem 0rem 0rem;
   width: 2.85rem;
   height: 3.0838rem;
@@ -200,7 +230,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-drawer-ezh .auto-group-xodf-vxD .phn-nh-eah .phn-nh-hYy {
+.trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .phn-nh-oED .phn-nh-Sny {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -212,32 +242,41 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw {
   box-sizing: border-box;
-  padding-bottom: 3.3rem;
-  width: 109.4rem;
-  height: 102.4rem;
+  padding-bottom: 2.2rem;
+  width: 88.8rem;
+  height: 75rem;
   align-items: center;
   display: flex;
   flex-direction: column;
-  border: solid 0.1rem #000000;
   flex-shrink: 0;
+
+  position: relative;
+  top: 10rem;
+  left: 25.6rem;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM {
-  margin-bottom: 4.8rem;
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh {
+  margin-bottom: 1rem;
   box-sizing: border-box;
-  padding: 2rem 0rem 0rem 1.4rem;
-  width: 100%;
-  height: 12.9rem;
+  padding: 1.4rem 1rem;
+  width: 88rem;
+  height: 10rem;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border: solid 0.1rem #e8d6d4;
   background-color: #9b1212;
   flex-shrink: 0;
+  z-index: 2;
+
+  position: fixed;
+  top: 0;
+  left: calc(12.5% + 25.6rem);
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM .thng-tin-h-dn-c-eMj {
-  margin: 0rem 18.3rem 5rem 0rem;
-  font-size: 4.8rem;
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .trang-ch-Bty {
+  margin: 0rem 10.4rem 4.1rem 0rem;
+  font-size: 3.8rem;
   font-weight: 700;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -245,17 +284,23 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM .auto-group-spe5-kvZ {
-  margin: 2.3rem 0rem 2rem 0rem;
-  height: calc(100% - 4.3rem);
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .auto-group-fzdf-fZF {
+  margin: 2.1rem 1.2rem 1.5rem 0rem;
+  height: calc(100% - 3.6rem);
   align-items: flex-end;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM .auto-group-spe5-kvZ .name-and-first-name-gpD {
-  margin-bottom: 0.6rem;
-  font-size: 2.4rem;
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .auto-group-fzdf-fZF .name-and-first-name-bSu {
+  margin-bottom: 0.4rem;
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -263,8 +308,8 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM .auto-group-spe5-kvZ .id-number-or-worker-number-27P {
-  font-size: 2.4rem;
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .auto-group-fzdf-fZF .id-number-or-worker-number-K81 {
+  font-size: 2rem;
   font-weight: 400;
   line-height: 1.2125;
   color: #e8d6d4;
@@ -272,20 +317,16 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .frame-header-KaM .user-avatar-x13 {
-  margin-top: 0.9rem;
-  width: 10rem;
-  height: 10rem;
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .user-avatar-qc9 {
+  width: 8rem;
+  height: 8rem;
   border: solid 0.1rem #e8d6d4;
   box-sizing: border-box;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: url('../assets/user-avatar-bg-qaD.png');
   border-radius: 5rem;
   flex-shrink: 0;
+  object-fit: cover;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B {
   margin: 0 0.55rem;
   box-sizing: border-box;
   padding: 0rem 1.2rem 1.5rem 1.2rem;
@@ -296,7 +337,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b {
   margin: 0rem 23.1rem 6.3rem 23.1rem;
   width: calc(100% - 46.2rem);
   height: 4.4rem;
@@ -304,14 +345,14 @@ body {
   align-items: center;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF {
   margin-right: 6.6rem;
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF .c1-PEm {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF .c1-PEm {
   margin-right: 1.8rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -321,7 +362,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF .c1-Ku7 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-qDF .c1-Ku7 {
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -330,13 +371,13 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM {
   height: 100%;
   display: flex;
   align-items: center;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM .c1-STw {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM .c1-STw {
   margin-right: 0.8rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -346,7 +387,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM .c1-PPB {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-appartment-basic-infos-L1b .frame-3844-GpM .c1-PPB {
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -355,7 +396,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf {
   margin-bottom: 26rem;
   width: 103.65rem;
   align-items: center;
@@ -363,7 +404,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf {
   box-sizing: border-box;
   padding: 0rem 0rem 2rem 1.2rem;
   width: 100%;
@@ -373,7 +414,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB {
   box-sizing: border-box;
   padding: 1rem 1.25rem 0.9rem 3.65rem;
   display: flex;
@@ -382,7 +423,7 @@ body {
   background-color: #904a43;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c1-wp1 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c1-wp1 {
   margin-right: 7.75rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -392,7 +433,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c2-Hss {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c2-Hss {
   margin-right: 11.6rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -402,7 +443,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c3-2qT {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c3-2qT {
   margin-right: 8.85rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -412,7 +453,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c4-n3w {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c4-n3w {
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.2125;
@@ -421,7 +462,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu {
   box-sizing: border-box;
   padding: 0.5rem 0.2rem 0.5rem 0rem;
   width: 102rem;
@@ -435,7 +476,7 @@ body {
   border-radius: 0.3rem;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c1-Qb7 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c1-Qb7 {
   margin: 0rem 0.3rem 0.4rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -445,7 +486,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c2-LDs {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c2-LDs {
   margin: 0rem 9.65rem 1rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -455,7 +496,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c3-fX3 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c3-fX3 {
   margin: 0rem 6.4rem 1rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -465,7 +506,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .frame-3838-oNM {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .frame-3838-oNM {
   margin-bottom: 1rem;
   width: 25.4rem;
   height: 6.4rem;
@@ -481,7 +522,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP {
   box-sizing: border-box;
   padding: 0.5rem 0.2rem 0.5rem 0rem;
   width: 100%;
@@ -492,7 +533,7 @@ body {
   background-color: #e8d6d4;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c1-1zD {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c1-1zD {
   margin: 0rem 3.15rem 0.9rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -502,7 +543,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c2-xPf {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c2-xPf {
   margin: 0rem 14.55rem 0.9rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -512,7 +553,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c3-h6M {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .c3-h6M {
   margin: 0rem 10.25rem 0.9rem 0rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -522,7 +563,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .frame-3838-dEu {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP .frame-3838-dEu {
   margin-bottom: 0.9rem;
   width: 25.4rem;
   height: 6.4rem;
@@ -538,7 +579,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .header-HKT {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .header-HKT {
   box-sizing: border-box;
   padding: 0.5rem 0.2rem 0.9rem 0rem;
   width: 100%;
@@ -548,7 +589,7 @@ body {
   border: solid 0.1rem #808080;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .header-HKT .c1-c6q {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .header-HKT .c1-c6q {
   margin-right: 1.55rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -558,7 +599,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .header-HKT .c2-9cZ {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .header-HKT .c2-9cZ {
   margin-right: 9.75rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -568,7 +609,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .header-HKT .c3-VRX {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .header-HKT .c3-VRX {
   margin-right: 5.95rem;
   font-size: 3.6rem;
   font-weight: 400;
@@ -578,7 +619,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .frame-citizens-infos-8bf .header-HKT .frame-3838-2wF {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .header-HKT .frame-3838-2wF {
   width: 25.4rem;
   height: 100%;
   font-size: 3.6rem;
@@ -593,7 +634,7 @@ body {
   border-radius: 2rem;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .button-vWq {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq {
   margin-left: 0.3rem;
   width: 19.7rem;
   height: 6.4rem;
@@ -601,7 +642,7 @@ body {
   position: relative;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .button-vWq .frame-turn-back-button-UHT {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq .frame-turn-back-button-UHT {
   box-sizing: border-box;
   padding: 1rem 0.8rem 1rem 2.433rem;
   width: 100%;
@@ -613,7 +654,7 @@ body {
   background-color: #ffffff;
   border-radius: 2rem;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .button-vWq .frame-turn-back-button-UHT .corner-down-left-QS1 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq .frame-turn-back-button-UHT .corner-down-left-QS1 {
   margin: 0rem 1.333rem 0rem 0rem;
   width: 1.3333rem;
   height: 1.3333rem;
@@ -622,7 +663,7 @@ body {
   vertical-align: top;
   flex-shrink: 0;
 }
-.cd-chi-tit-h-dn-c-8mT .frame-header-and-content-Pgh .content-d7B .button-vWq .frame-turn-back-button-UHT .quay-li-8N1 {
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq .frame-turn-back-button-UHT .quay-li-8N1 {
   font-size: 3.6rem;
   font-weight: 400;
   line-height: 1.2125;
