@@ -110,7 +110,6 @@ body {
   align-items: center;
   background-color: #9b1212;
   flex-shrink: 0;
-  border-left: 15px solid orange;
 }
 
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .cn-h-Fo3:hover {
@@ -147,6 +146,7 @@ body {
   align-items: center;
   background-color: #9b1212;
   flex-shrink: 0;
+  border-left: 15px solid orange;
 }
 
 .trang-ch-cng-dn-CH3 .frame-drawer-8gV .auto-group-dcnh-EDj .navigate-xvR .ha-n-RL9:hover {
@@ -259,7 +259,7 @@ body {
   margin-bottom: 1rem;
   box-sizing: border-box;
   padding: 1.4rem 1rem;
-  width: 88rem;
+  width: 89rem;
   height: 10rem;
   display: flex;
   justify-content: space-between;
@@ -336,6 +336,7 @@ body {
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih {
     margin: 0rem 0rem 0rem 0rem;
     width: 58.7rem;
+    height: 55rem;
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF {
@@ -355,7 +356,8 @@ body {
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF .frame-3849-C5j .c1-vGd {
     margin-right: 1.9rem;
     font-size: 2.4rem;
-    font-weight: 400;
+    width: 40rem;
+    font-weight: 700;
     line-height: 1.2125;
     color: #000000;
     font-family: Inter, 'Source Sans Pro';
@@ -381,7 +383,7 @@ body {
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF .frame-3850-CE9 .c1-8tV {
     margin-right: 2rem;
     font-size: 3.6rem;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.2125;
     color: #000000;
     font-family: Inter, 'Source Sans Pro';
@@ -406,8 +408,8 @@ body {
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF .frame-3845-1Bb .c1-9Ho {
     margin-right: 1.9rem;
-    font-size: 3.6rem;
-    font-weight: 400;
+    font-size: 2.4rem;
+    font-weight: 700;
     line-height: 1.2125;
     color: #000000;
     font-family: Inter, 'Source Sans Pro';
@@ -557,6 +559,7 @@ body {
     height: 6.4rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ {
@@ -602,10 +605,12 @@ body {
     margin-right: 2rem;
     box-sizing: border-box;
     padding: 1rem 0.8rem 1rem 1.375rem;
+    width: 15rem;
     height: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: solid 0.1rem #c9c9c9;
     background-color: #775652;
     border-radius: 2rem;
