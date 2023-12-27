@@ -41,9 +41,18 @@
       let password = document.getElementById("password").value;
 
       // Kiểm tra nếu username và password đúng
-      if (username === "admin" && password === "123456") {
+      if (username === "NamTruong_01" && password === "abc123") {
         // Chuyển hướng đến trang index.html
-        window.location.href = "index.html";
+        window.location.href = "./Cư dân - Trang chủ.html";
+      } else if (username === "LanNguyen_02" && password === "def456") {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "./Quản trị - Trang chủ.html";
+      } else if (username === "LongTruong_03" && password === "ghi789") {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "./Quản trị - Trang chủ.html";
+      }  else if (username === "MinhLe_21" && password === "No3$Pq4") {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "./Quản lý - Trang chủ.html";
       } else {
         // Hiển thị thông báo lỗi
         alert("Tên đăng nhập hoặc mật khẩu không đúng!");
