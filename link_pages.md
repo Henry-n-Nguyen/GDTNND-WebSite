@@ -1,27 +1,32 @@
-# CuDan 
-## Menu 
+# UI 
+1. Trang chủ, các thông báo hiển thị hover 
+
+
+# Links 
+## CuDan 
+### Menu 
 - [?] trang chu 
 - [?] can ho 
 - [?] hoa don
 - [?] phan anh
 
-## trang chu 
-- [ ] Thong bao
+### trang chu 
+- [x] Thong bao thanh toan 
 - [ ] thong bao trang 2 
 
-## Can Ho 
+### Can Ho 
 
 
-# QuanLy
-## Menu 
+## QuanLy
+### Menu 
 - [?] trang chu 
 - [?] can ho 
 - [?] hoa don
 - [?] phan anh
 
 
-# QuanTri 
-## Menu 
+## QuanTri 
+### Menu 
 - [?] trang chu 
 - [?] hoa don
 - [?] phan anh
