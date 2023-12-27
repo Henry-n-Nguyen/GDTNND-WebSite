@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Công an - Căn hộ</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
+  <link rel="stylesheet" href="./styles/Công an - Căn hộ.css"/>
+</head>
+<body>
+<div class="trang-ch-cng-dn-CH3">
+  <div class="frame-drawer-8gV">
+    <img class="logo-5Lq" src="./assets/Logo.png">
+    <div class="auto-group-dcnh-EDj">
+      <div class="navigate-xvR">
+        <div class="trang-ch--72d" onclick="window.location.href = './Quản\ lý\ -\ Trang chủ.html'">
+          <img class="icon-home-Sah" src="./assets/icon-Home.png"/>
+          <div class="trang-ch-xJ9">Trang chủ </div>
+        </div>
+        <div class="cn-h-Fo3" onclick="window.location.href = './Quản\ lý\ -\ Căn hộ.html'">
+          <img class="icon-user-circle-alt-yyw" src="./assets/icon-Resident.png"/>
+          <div class="cn-h-hf3">Căn hộ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frame-header-and-content-wDw">
+    <div class="frame-header-rrh">
+      <p class="trang-ch-Bty">Căn hộ </p>
+      <div class="group-user-info-upy">
+        <div class="auto-group-fzdf-fZF">
+          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
+          <p class="id-number-or-worker-number-K81">20205205</p>
+        </div>
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
+        </div>
+      </div>
+    </div>
+    <div class="content-d7B">
+      <div class="frame-appartment-basic-infos-L1b">
+        <div class="frame-3844-qDF">
+          <p class="c1-PEm">Căn hộ:</p>
+          <p class="c1-Ku7">P1101</p>
+        </div>
+        <div class="frame-3844-GpM">
+          <p class="c1-STw">Số nhân khẩu: </p>
+          <p class="c1-PPB">4</p>
+        </div>
+      </div>
+      <div class="frame-citizens-infos-8bf">
+        <div class="auto-group-dxjb-HDf">
+          <div class="header-QZB">
+            <p class="c1-wp1">Căn hộ</p>
+            <p class="c2-Hss">Nhân khẩu</p>
+            <p class="c3-2qT">Trạng thái</p>
+          </div>
+          <div class="header-hAu">
+            <p class="c1-Qb7">P1101</p>
+            <p class="c2-LDs">3</p>
+            <p class="c3-fX3">Cư trú</p>
+          </div>
+          <div class="header-hAu">
+            <p class="c1-Qb7">P1201</p>
+            <p class="c2-LDs">4</p>
+            <p class="c3-fX3">Cư trú</p>
+          </div>
+          <div class="header-hAu">
+            <p class="c1-Qb7">P1301</p>
+            <p class="c2-LDs">2</p>
+            <p class="c3-fX3">Cư trú</p>
+          </div>
+          <div class="header-hAu">
+            <p class="c1-Qb7">P1401</p>
+            <p class="c2-LDs">2</p>
+            <p class="c3-fX3">Cư trú</p>
+          </div>
+          <div class="header-hAu">
+            <p class="c1-Qb7">P1501</p>
+            <p class="c2-LDs">5</p>
+            <p class="c3-fX3">Cư trú</p>
+          </div>
+        </div>
+        <div class="item-02-eiZ">
+          <div class="frame-16-bNu">
+            <p class="previous-LrH">Previous</p>
+            <div class="frame-15-HFj">1</div>
+            <div class="frame-16-HFj">2</div>
+            <div class="frame-16-HFj">3</div>
+            <div class="frame-16-HFj">4</div>
+            <div class="frame-16-HFj">5</div>
+            <div class="frame-16-HFj">6</div>
+            <div class="frame-16-HFj">7</div>
+            <div class="frame-16-HFj">8</div>
+            <div class="frame-16-HFj">9</div>
+            <div class="frame-16-HFj">10</div>
+            <p class="next-yeM">Next</p>
+          </div>
+        </div>
+      </div>
+      <div class="button-vWq">
+        <div class="frame-turn-back-button-UHT">
+          <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
+          <p class="quay-li-8N1">Quay lại</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+</script>
+
+</body>

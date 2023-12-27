@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Công an - Căn hộ - Chi tiết cư dân</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
+  <link rel="stylesheet" href="./styles/Công an - Căn hộ - Chi tiết cư dân.css"/>
+</head>
+<body>
+<div class="trang-ch-cng-dn-CH3">
+  <div class="frame-drawer-8gV">
+    <img class="logo-5Lq" src="./assets/Logo.png">
+    <div class="auto-group-dcnh-EDj">
+      <div class="navigate-xvR">
+        <div class="trang-ch--72d" onclick="window.location.href = './Quản\ lý\ -\ Trang chủ.html'">
+          <img class="icon-home-Sah" src="./assets/icon-Home.png"/>
+          <div class="trang-ch-xJ9">Trang chủ </div>
+        </div>
+        <div class="cn-h-Fo3" onclick="window.location.href = './Quản\ lý\ -\ Căn hộ.html'">
+          <img class="icon-user-circle-alt-yyw" src="./assets/icon-Resident.png"/>
+          <div class="cn-h-hf3">Căn hộ</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frame-header-and-content-wDw">
+    <div class="frame-header-rrh">
+      <p class="trang-ch-Bty">Căn hộ - Chi tiết cư dân</p>
+      <div class="group-user-info-upy">
+        <div class="auto-group-fzdf-fZF">
+          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
+          <p class="id-number-or-worker-number-K81">20205205</p>
+        </div>
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
+        </div>
+      </div>
+    </div>
+    <div class="auto-group-2usw-yTs">
+      <div class="frame-citizen-infos-Wih">
+        <div class="auto-group-k8hb-SsF">
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Họ và tên:</p>
+            <p class="c1-rg5">Trương Văn Nam </p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Ngày sinh:</p>
+            <p class="c1-rg5">29/10/1985</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Nơi ở:</p>
+            <p class="c1-rg5">P101</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">CCCD:</p>
+            <p class="c1-rg5">102938475610</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Nghề nghiệp:</p>
+            <p class="c1-rg5">Nhà báo</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Số điện thoại:</p>
+            <p class="c1-rg5">0986543211</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Email:</p>
+            <p class="c1-rg5">namcaptures@outlook.com</p>
+          </div>
+          <div class="frame-3849-C5j">
+            <p class="c1-vGd">Quan hệ với chủ hộ:</p>
+            <p class="c1-rg5">Chủ hộ</p>
+          </div>
+        </div>
+      </div>
+      <div class="frame-bottom-buttons-3hw">
+        <div class="frame-turn-back-buttons-bUZ">
+          <img class="corner-down-left-iZB" src="./assets/corner-down-left-PTB.png"/>
+          <p class="quay-li-dw3">Quay lại</p>
+        </div>
+        <div class="right-button-M6M">
+          <div class="frame-change-buttons-JXP">
+            <img class="edit-2-Evq" src="./assets/edit-2-uWD.png"/>
+            <p class="chnh-sa-B5P">Chỉnh sửa</p>
+          </div>
+          <div class="frame-delete-button-gnq">Xóa</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+</script>
+
+</body>
