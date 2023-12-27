@@ -1,5 +1,7 @@
 # UI 
 1. Trang chủ, các thông báo hiển thị hover 
+1. hover các clickable của trang khác 
+
 
 
 # Links 
@@ -15,6 +17,10 @@
 - [ ] thong bao trang 2 
 
 ### Can Ho 
+- [x] -> user 
+
+#### Can ho - user 
+- [ ] -> can ho 
 
 
 ## QuanLy
