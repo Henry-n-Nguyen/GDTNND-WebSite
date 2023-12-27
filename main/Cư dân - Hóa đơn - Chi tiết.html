@@ -5,13 +5,13 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Cư dân - Hóa đơn - Chi tiết</title>
+  <title>Quản lý - Hóa đơn - Chi tiết</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
-  <link rel="stylesheet" href="./styles/Cư dân - Hóa đơn - Chi tiết.css"/>
+  <link rel="stylesheet" href="./styles/Quản lý - Hóa đơn - Chi tiết.css"/>
 </head>
 <body>
 <div class="trang-ch-cng-dn-CH3">
@@ -46,10 +46,7 @@
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
           <p class="id-number-or-worker-number-K81">20205205</p>
         </div>
-        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
-        <div id="nav-01" class="avatar-navigate">
-          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
-        </div>
+        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
       </div>
     </div>
     <div class="auto-group-2usw-yTs">
@@ -79,23 +76,13 @@
           <img class="corner-down-left-iZB" src="./assets/corner-down-left-PTB.png"/>
           <p class="quay-li-dw3">Quay lại</p>
         </div>
+        <div class="right-button-M6M">
+          <div class="frame-change-buttons-JXP">
+            <p class="chnh-sa-B5P">Thanh toán</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
-
-<script>
-  var nav1 = 0;
-
-  document.getElementById("avatar").addEventListener("click", function() {
-    if (nav1 == 0) {
-      document.getElementById("nav-01").style.display = "block";
-      nav1 = (nav1 + 1) % 2;
-    } else {
-      document.getElementById("nav-01").style.display = "none";
-      nav1 = (nav1 + 1) % 2;
-    }
-  });
-</script>
-
 </body>
