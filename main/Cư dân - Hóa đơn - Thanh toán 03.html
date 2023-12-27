@@ -19,19 +19,19 @@
     <img class="logo-5Lq" src="./assets/Logo.png">
     <div class="auto-group-dcnh-EDj">
       <div class="navigate-xvR">
-        <div class="trang-ch--72d">
+        <div class="trang-ch--72d" onclick="window.location.href = './Cư\ dân\ -\ Trang chủ.html'" >
           <img class="icon-home-Sah" src="./assets/icon-Home.png"/>
           <div class="trang-ch-xJ9">Trang chủ </div>
         </div>
-        <div class="cn-h-Fo3">
+        <div class="cn-h-Fo3" onclick="window.location.href = './Cư\ dân\ -\ Căn\ hộ.html'">
           <img class="icon-user-circle-alt-yyw" src="./assets/icon-Resident.png"/>
           <div class="cn-h-hf3">Căn hộ</div>
         </div>
-        <div class="ha-n-RL9">
+        <div class="ha-n-RL9" onclick="window.location.href = './Cư\ dân\ -\ Hóa\ đơn.html'">
           <img class="icon-wallet-xL5" src="./assets/icon-Fee.png"/>
           <div class="ha-n-UJR">Hóa đơn</div>
         </div>
-        <div class="phn-nh-QC5">
+        <div class="phn-nh-QC5" onclick="window.location.href = './Cư\ dân\ -\ Phản\ ánh.html'">
           <img class="icon-message-text-wSu" src="./assets/icon-Complain.png"/>
           <div class="phn-nh-fdo">Phản ánh</div>
         </div>
@@ -46,7 +46,10 @@
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
           <p class="id-number-or-worker-number-K81">20205205</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
+        </div>
       </div>
     </div>
     <div class="frame-3982-vn1">
@@ -67,4 +70,19 @@
     </div>
   </div>
 </div>
+
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+</script>
+
 </body>
