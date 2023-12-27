@@ -8,7 +8,7 @@
   <title>Đăng nhập</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
-  <link rel="stylesheet" href="./styles/Cư dân - Đăng nhập.css"/>
+  <link rel="stylesheet" href="./styles/Đăng nhập.css"/>
 </head>
 <body>
 <div class="ng-nhp-TXb">
@@ -18,9 +18,9 @@
       <div class="frame-3929-Lzh">
         <div class="form-tFX">
           <div class="username-E4V">Tên người dùng</div>
-          <div class="frame-3926-a8M">HuymaiP1101</div>
+          <input class="frame-3926-a8M" id="username" value="" placeholder="Username" type="text">
           <div class="password-WgD">Mật khẩu</div>
-          <div class="frame-3927-SZs">************</div>
+          <input class="frame-3926-a8M" id="password" value="" placeholder="Password" type="text">
           <div class="qun-mt-khu-9z5" href="cd-chi-tit-h-dn-c.html">Quên mật khẩu?</div>
         </div>
         <a class="button-Tzm" href="./Cư Dân- Trang chủ.html">Đăng nhập</a>
@@ -28,5 +28,27 @@
     </div>
   </div>
 </div>
+
+<script>
+    var username = {}
+    var password = {}
+    var role = {}
+
+    function checkLogin() {
+      // Lấy giá trị của thẻ input username
+      let username = document.getElementById("username").value;
+      // Lấy giá trị của thẻ input password
+      let password = document.getElementById("password").value;
+
+      // Kiểm tra nếu username và password đúng
+      if (username === "admin" && password === "123456") {
+        // Chuyển hướng đến trang index.html
+        window.location.href = "index.html";
+      } else {
+        // Hiển thị thông báo lỗi
+        alert("Tên đăng nhập hoặc mật khẩu không đúng!");
+      }
+    }
+</script>
 
 </body>

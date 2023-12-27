@@ -1,0 +1,25 @@
+:root {
+    --neutral-900: rgba(4, 15, 15, 1);
+    --basicblack: rgba(0, 0, 0, 1);
+    --neutral-500: rgba(107, 107, 107, 1);
+    --primary-blue700: rgba(11, 135, 172, 1);
+    --body-caption-l-medium-font-family: "Poppins-Medium", Helvetica;
+    --body-caption-l-medium-font-weight: 500;
+    --body-caption-l-medium-font-size: 14px;
+    --body-caption-l-medium-letter-spacing: 0px;
+    --body-caption-l-medium-line-height: 20px;
+    --body-caption-l-medium-font-style: normal;
+    --body-paragraph-s-regular-font-family: "Poppins-Regular", Helvetica;
+    --body-paragraph-s-regular-font-weight: 400;
+    --body-paragraph-s-regular-font-size: 14px;
+    --body-paragraph-s-regular-letter-spacing: 0px;
+    --body-paragraph-s-regular-line-height: 20px;
+    --body-paragraph-s-regular-font-style: normal;
+    --body-caption-l-regular-font-family: "Poppins-Regular", Helvetica;
+    --body-caption-l-regular-font-weight: 400;
+    --body-caption-l-regular-font-size: 14px;
+    --body-caption-l-regular-letter-spacing: 0px;
+    --body-caption-l-regular-line-height: 20px;
+    --body-caption-l-regular-font-style: normal;
+  }
+  
