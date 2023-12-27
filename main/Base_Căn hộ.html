@@ -46,11 +46,46 @@
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
           <p class="id-number-or-worker-number-K81">20205205</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div id="first-class-nav" class="navigate">Chuyển chức năng</div>
+          <div class="navigate">Đăng xuất</div>
+        </div>
+        <div id="nav-02" class="sub-avatar-navigate">
+          <div class="navigate">Quản lý</div>
+          <div class="navigate">Cư dân</div>
+        </div>
       </div>
     </div>
     <div class="frame-main-content-U9K"></div>
     <div class="notice-kXP"></div>
   </div>
 </div>
+
+<script>
+  var nav1 = 0;
+  var nav2 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      document.getElementById("nav-02").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+      nav2 = 0;
+    }
+  });
+  document.getElementById("first-class-nav").addEventListener("click", function() {
+    if (nav2 == 0) {
+      document.getElementById("nav-02").style.display = "block";
+      nav2 = (nav2 + 1) % 2;
+    } else {
+      document.getElementById("nav-02").style.display = "none";
+      nav2 = (nav2 + 1) % 2;
+    }
+  });
+</script>
+
 </body>

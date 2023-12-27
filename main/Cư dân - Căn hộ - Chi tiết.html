@@ -46,7 +46,10 @@
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
           <p class="id-number-or-worker-number-K81">20205205</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
+        </div>
       </div>
     </div>
     <div class="auto-group-2usw-yTs">
@@ -102,4 +105,19 @@
     </div>
   </div>
 </div>
+
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+</script>
+
 </body>
