@@ -23,7 +23,7 @@
           <input class="frame-3926-a8M" id="password" value="" placeholder="Password" type="text">
           <div class="qun-mt-khu-9z5" href="cd-chi-tit-h-dn-c.html">Quên mật khẩu?</div>
         </div>
-        <a class="button-Tzm" href="./Cư Dân- Trang chủ.html">Đăng nhập</a>
+        <a class="button-Tzm" onclick="checkLogin()">Đăng nhập</a>
       </div>
     </div>
   </div>
@@ -41,16 +41,18 @@
       let password = document.getElementById("password").value;
 
       // Kiểm tra nếu username và password đúng
-      if (username === "NamTruong_01" && password === "abc123") {
+      if (username == "" && password == "") {
+        alert("Hãy nhập tài khoản mật khẩu!");
+      } else if (username == "NamTruong_01" && password == "abc123") {
         // Chuyển hướng đến trang index.html
         window.location.href = "./Cư dân - Trang chủ.html";
-      } else if (username === "LanNguyen_02" && password === "def456") {
+      } else if (username == "LanNguyen_02" && password == "def456") {
         // Chuyển hướng đến trang index.html
         window.location.href = "./Quản trị - Trang chủ.html";
-      } else if (username === "LongTruong_03" && password === "ghi789") {
+      } else if (username == "LongTruong_03" && password == "ghi789") {
         // Chuyển hướng đến trang index.html
         window.location.href = "./Quản trị - Trang chủ.html";
-      }  else if (username === "MinhLe_21" && password === "No3$Pq4") {
+      }  else if (username == "MinhLe_21" && password == "No3$Pq4") {
         // Chuyển hướng đến trang index.html
         window.location.href = "./Quản lý - Trang chủ.html";
       } else {
