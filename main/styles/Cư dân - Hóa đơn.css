@@ -933,6 +933,11 @@ body {
   background-color: #904a43;
   flex-shrink: 0;
 }
+
+.header-hAu:hover{
+  background-color: #cccccc;
+}
+
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-QZB .c1-wp1 {
   width: 24rem;
   font-size: 2.4rem;

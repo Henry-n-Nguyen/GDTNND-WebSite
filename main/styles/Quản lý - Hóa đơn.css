@@ -1048,6 +1048,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.header-hAu:hover{
+  background-color: #cccccc;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-UjP {
   box-sizing: border-box;
   padding: 0.5rem 0.2rem 0.5rem 0rem;

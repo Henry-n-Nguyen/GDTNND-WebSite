@@ -719,6 +719,9 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+.header-tow:hover{
+  background-color: #cccccc;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-a4V {
   box-sizing: border-box;
   padding-right: 9.3167rem;

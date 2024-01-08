@@ -490,6 +490,9 @@ body {
   border-radius: 0.3rem;
   flex-shrink: 0;
 }
+.header-hAu:hover{
+  background-color: #cccccc;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c1-Qb7 {
   margin: 0rem 0.3rem 0.4rem 0rem;
   width: 24rem;

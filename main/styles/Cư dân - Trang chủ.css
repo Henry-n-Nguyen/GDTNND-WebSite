@@ -682,6 +682,10 @@ body {
   border-radius: 0.3rem;
   flex-shrink: 0;
 }
+
+.header-tow:hover{
+  background-color: #cccccc;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-tow .auto-group-gcpm-2fF {
   margin: 0rem 1rem 2rem 0rem;
   box-sizing: border-box;
@@ -695,6 +699,7 @@ body {
   white-space: nowrap;
   flex-shrink: 0;
 }
+
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .notice-kXP .auto-group-vcr3-HnD .frame-notifications-g3f .header-tow .c2-vkd {
   margin: 0rem 10rem 2rem 0rem;
   padding: 1rem 0 0 0;  
