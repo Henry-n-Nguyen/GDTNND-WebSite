@@ -62,7 +62,7 @@
       </div>
       <p class="bng-vic-nhn-vo-nt-thanh-ton-ngay-bn-ng-rng-giao-dch-ny-l-khng-hon-khng-hy-WJH">Bằng việc nhấn vào nút Thanh toán ngay, Bạn đồng ý rằng giao dịch này là không hoàn, không hủy.</p>
     </div>
-    <div class="button-xRB">
+    <div class="button-xRB" onclick="check()">
       <div class="frame-turn-back-button-5kh" onclick="window.location.href='./Cư dân - Hóa đơn - Chi tiết.html'">Hủy</div>
       <div class="frame-3855-Zfs">Thanh toán</div>
     </div>
@@ -91,7 +91,7 @@
 
     if (value.length === 3 && value[value.length - 1] === "/") {
       this.value = value.substring(0, value.length - 1);
-    }  
+    } 
   });
 
   document.getElementById("card-number").addEventListener("input", function() {
@@ -115,6 +115,19 @@
 
     this.value = this.value.toUpperCase();
   });
+
+  function check() {
+    var expiredDate = document.getElementById("expired-date").value;
+    var cardNumber = document.getElementById("card-number").value;
+    var cardName = document.getElementById("card-name").value;
+
+    if (expiredDate == "" || cardName == "" || cardNumber == "") {
+      alert("Hãy nhập đủ các trường cần thiết")
+    } else {
+      alert("Thanh toán thành công");
+      window.location.href = './Cư dân - Hóa đơn - Chi tiết - Đã thanh toán.html';
+    }
+  }
 </script>
 
 </body>

@@ -5,7 +5,7 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Căn hộ</title>
+  <title>Quản trị - Hóa đơn - Thống kê</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
@@ -49,7 +49,26 @@
       </div>
     </div>
     <div class="content-d7B">
-      <img src="./assets/Quanly-Hoadon-Chart.png" alt="">
+      <div class="top-container-button">
+        <div class="top-left-button">
+          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
+          <datalist id="myDatalist">
+            <option value="Năm">
+            <option value="Tháng">
+            <option value="Ngày">
+          </datalist>
+          <input class="input-field-pJR" type="date" id="myDate">
+          <div class="btn-chart" onclick="window.location.href = ''">
+            <img class="img-btn" src="./assets/lookup-btn.png" alt="">
+          </div>
+        </div>
+        <!-- <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
+          <p class="btn-chart-content">Thống kê</p>
+        </div> -->
+      </div>
+      <div class="chart-img-container">
+        <img class="chart-img" src="./assets/Quanly-Hoadon-Chart.png" alt="">
+      </div>
       <div class="button-vWq">
         <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Hóa đơn.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>

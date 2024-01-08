@@ -546,6 +546,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-uid .auto-group-tt4h-ew7 .input-field-8LV .lead-icon-text-fLR {
     width: 27.2rem;
@@ -598,6 +600,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-XtR .auto-group-agsq-59F .input-field-McZ .lead-icon-text-4Wy {
     margin-right: 5.25rem;
@@ -656,6 +660,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-TZ7 .auto-group-gvqh-oN5 .input-field-GWZ .lead-icon-text-nzh {
     margin-right: 21.7rem;
@@ -707,6 +713,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-5D7 .auto-group-pked-28M .input-field-JrZ .lead-icon-text-F17 {
     margin-right: 35.6rem;
@@ -778,7 +786,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 34.2rem;
+    top: 27.2rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-9eD .auto-group-9bk9-gu3 {
     width: 100%;
@@ -809,6 +817,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-9eD .auto-group-9bk9-gu3 .input-field-mQh .lead-icon-text-JfX {
     margin-right: 39.4rem;
@@ -829,7 +839,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 41.3rem;
+    top: 34.2rem;    
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-PS5 .auto-group-ndwj-L6R {
     width: 100%;
@@ -860,6 +870,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-PS5 .auto-group-ndwj-L6R .input-field-Qry .lead-icon-text-YiH {
     margin-right: 14.1rem;
@@ -884,7 +896,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 48rem;
+    top: 41.3rem;    
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-Piu .auto-group-dhro-jXs {
     width: 100%;
@@ -917,6 +929,8 @@ body {
     border: solid 0.2rem #000000;
     background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-Piu .auto-group-dhro-jXs .input-field-pJR .lead-icon-text-vcM {
     margin-right: 9.2rem;
@@ -958,10 +972,13 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: solid 0.1rem #775652;
     background-color: #ffffff;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .frame-turn-back-button-fiM:hover {
+    border: 2px solid black;
+    border-radius: 2.2rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .button-vVs .frame-turn-back-button-fiM .corner-down-left-hf3 {
     margin: 0rem 1.333rem 0rem 0rem;
@@ -994,10 +1011,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 0.1rem #775652;
     box-sizing: border-box;
     background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .frame-3852-Xe5:hover {
+    border: 2px solid black;
   }
   

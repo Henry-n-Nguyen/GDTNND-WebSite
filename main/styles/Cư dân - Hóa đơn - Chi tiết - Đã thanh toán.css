@@ -615,10 +615,13 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: solid 0.1rem #775652;
     background-color: #ffffff;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .frame-turn-back-buttons-bUZ:hover {
+    border: 2px solid black;
+    border-radius: 2rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ .corner-down-left-iZB {
     margin: 0rem 1.333rem 0rem 0rem;

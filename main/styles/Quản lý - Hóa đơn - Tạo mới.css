@@ -20,7 +20,7 @@ body {
 }
 .trang-ch-cng-dn-CH3 {
   width: 75%;
-  height: 81rem;
+  height: 83rem;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -514,6 +514,9 @@ body {
     border-radius: 2rem;
     flex-shrink: 0;
   }
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ:hover {
+    border: 2px solid black;
+  }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ .corner-down-left-iZB {
     margin: 0rem 1.333rem 0rem 0rem;
     width: 1.3333rem;
@@ -554,6 +557,9 @@ body {
     background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-bottom-buttons-3hw .right-button-M6M .frame-change-buttons-JXP:hover {
+    border: 2px solid black;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-bottom-buttons-3hw .right-button-M6M .frame-change-buttons-JXP .edit-2-Evq {
     margin: 0.014rem 1.19rem 0rem 0rem;

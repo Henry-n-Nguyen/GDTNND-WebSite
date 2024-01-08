@@ -45,7 +45,26 @@
       </div>
     </div>
     <div class="content-d7B">
-      <img src="./assets/Quanly-Canho-Chart.png" alt="">
+      <div class="top-container-button">
+        <div class="top-left-button">
+          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
+          <datalist id="myDatalist">
+            <option value="Năm">
+            <option value="Tháng">
+            <option value="Ngày">
+          </datalist>
+          <input class="input-field-pJR" type="date" id="myDate">
+          <div class="btn-chart" onclick="window.location.href = ''">
+            <img class="img-btn" src="./assets/lookup-btn.png" alt="">
+          </div>
+        </div>
+        <!-- <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
+          <p class="btn-chart-content">Thống kê</p>
+        </div> -->
+      </div>
+      <div class="chart-img-container">
+        <img class="chart-img" src="./assets/Quanly-Canho-Chart.png" alt="">
+      </div>
       <div class="button-vWq">
         <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Công an - Căn hộ.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
@@ -68,6 +87,11 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+
 </script>
 
 </body>

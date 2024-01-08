@@ -325,6 +325,50 @@ body {
   flex-shrink: 0;
   object-fit: cover;
 }
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .avatar-navigate {
+  display: none;
+  width: 25rem;
+  height: 7rem;
+  background-color: #ffffff;
+  padding: 0rem 1rem;
+
+  position: absolute;
+  top: 10rem;
+  right: 0;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .avatar-navigate .navigate {
+  padding: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #000000;
+  font-family: Inter, 'Source Sans Pro';
+  cursor: pointer;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .avatar-navigate .navigate:hover {
+  text-decoration: underline;
+  color: red;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .sub-avatar-navigate {
+  display: none;
+  width: 25rem;
+  height: 14rem;
+  background-color: #ffffff;
+  padding: 0rem 1rem;
+
+  position: absolute;
+  top: 10rem;
+  right: 25rem;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .sub-avatar-navigate .navigate {
+  padding: 2rem;
+  font-size: 2rem;
+  border-bottom: 1px solid #000000;
+  font-family: Inter, 'Source Sans Pro';
+  cursor: pointer;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-header-rrh .group-user-info-upy .sub-avatar-navigate .navigate:hover {
+  text-decoration: underline;
+  color: red;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs {
     box-sizing: border-box;
     padding: 2rem 2rem 2rem 2rem;
@@ -574,6 +618,9 @@ body {
     background-color: #ffffff;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ:hover {
+    border: 2px solid black;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ .corner-down-left-iZB {
     margin: 0rem 1.333rem 0rem 0rem;

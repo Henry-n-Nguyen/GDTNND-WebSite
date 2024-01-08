@@ -374,8 +374,11 @@ body {
     box-sizing: border-box;
     padding: 2rem 2rem 2rem 2rem;
     width: 100%;
+    height: 65rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih {
@@ -385,7 +388,6 @@ body {
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF {
     box-sizing: border-box;
-    padding-bottom: 8rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -602,20 +604,22 @@ body {
     height: 6.4rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ {
-    margin-right: 33.65rem;
     box-sizing: border-box;
     padding: 1rem 0.8rem 1rem 2rem;
     height: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: solid 0.1rem #775652;
     background-color: #ffffff;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .frame-turn-back-buttons-bUZ:hover {
+    border: 2px solid black;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ .corner-down-left-iZB {
     margin: 0rem 1.333rem 0rem 0rem;
@@ -651,10 +655,12 @@ body {
     cursor: pointer;
     display: flex;
     align-items: center;
-    border: solid 0.1rem #c9c9c9;
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .frame-change-buttons-JXP:hover {
+    border: 2px solid black;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .right-button-M6M .frame-change-buttons-JXP .edit-2-Evq {
     margin: 0.014rem 1.19rem 0rem 0rem;
@@ -686,9 +692,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 0.1rem #c9c9c9;
     box-sizing: border-box;
     background-color: #ff4d4f;
     border-radius: 2rem;
     flex-shrink: 0;
-  }  
+  } 
+  .frame-delete-button-gnq:hover {
+    border: 2px solid black;
+  }

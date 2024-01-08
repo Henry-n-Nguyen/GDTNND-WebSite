@@ -743,7 +743,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 34.2rem;
+    top: 27.2rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-9eD .auto-group-9bk9-gu3 {
     width: 100%;
@@ -796,7 +796,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 41.3rem;
+    top: 34.2rem;    
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-PS5 .auto-group-ndwj-L6R {
     width: 100%;
@@ -853,7 +853,7 @@ body {
     height: 10rem;
     position: absolute;
     left: 0;
-    top: 48rem;
+    top: 41.3rem;    
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy .frame-info-Nyb .thi-gian-Piu .auto-group-dhro-jXs {
     width: 100%;
@@ -934,6 +934,9 @@ body {
     border-radius: 2rem;
     flex-shrink: 0;
   }
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .button-vVs .frame-turn-back-button-fiM:hover {
+    border: 2px solid black;
+  } 
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .button-vVs .frame-turn-back-button-fiM .corner-down-left-hf3 {
     margin: 0rem 1.333rem 0rem 0rem;
     width: 1.3333rem;
@@ -967,8 +970,11 @@ body {
     justify-content: center;
     border: solid 0.1rem #775652;
     box-sizing: border-box;
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
+  }
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .button-vVs .frame-3852-Xe5:hover {
+    border: 2px solid black;
   }
   

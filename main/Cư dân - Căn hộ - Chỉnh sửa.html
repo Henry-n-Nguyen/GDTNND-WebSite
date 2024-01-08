@@ -60,7 +60,6 @@
             <div class="frame-3849-5JM">Ngày sinh:</div>
             <div class="frame-3849-5JM">Số phòng</div>
             <div class="frame-3849-5JM">CCCD:</div>
-            <div class="frame-3849-5JM">Nghề nghiệp:</div>
             <div class="frame-3849-5JM">Số điện thoại:</div>
             <div class="frame-3849-5JM">Email:</div>
             <div class="frame-3849-5JM">Quan hệ với chủ hộ:</div>
@@ -69,66 +68,41 @@
         <div class="frame-info-Nyb">
           <div class="thi-gian-uid">
             <div class="auto-group-tt4h-ew7">
-              <div class="input-field-8LV">
-                <div class="lead-icon-text-fLR">Trương Văn Nam</div>
-              </div>
+              <input class="input-field-8LV" value="Trương Văn Nam">                
             </div>
           </div>
           <div class="thi-gian-XtR">
             <div class="auto-group-agsq-59F">
-              <div class="input-field-McZ">
-                <div class="lead-icon-text-4Wy">29 / 10 / 1985</div>
-                <img class="icon-fill-caret-small-down-Apu" src="./assets/icon-fill-caret-small-down-g1b.png"/>
-              </div>
+              <input class="input-field-McZ" value="1985-10-29" type="date">
             </div>
           </div>
           <div class="thi-gian-TZ7">
             <div class="auto-group-gvqh-oN5">
-              <div class="input-field-GWZ">
-                <div class="lead-icon-text-nzh">P101</div>
-              </div>
+              <input class="input-field-GWZ" value="P101">
             </div>
           </div>
           <div class="thi-gian-5D7">
             <div class="auto-group-pked-28M">
-              <div class="input-field-JrZ">
-                <div class="lead-icon-text-F17">102938475610</div>
-              </div>
-            </div>
-          </div>
-          <div class="thi-gian-Wxd">
-            <div class="auto-group-tycy-4UM">
-              <div class="input-field-YPX">
-                <div class="lead-icon-text-UY5">Nhà báo</div>
-              </div>
+              <input class="input-field-JrZ" value="102938475610">
             </div>
           </div>
           <div class="thi-gian-9eD">
             <div class="auto-group-9bk9-gu3">
-              <div class="input-field-mQh">
-                <div class="lead-icon-text-JfX">0986543211</div>
-              </div>
+              <input class="input-field-mQh" value="0986543211">
             </div>
           </div>
           <div class="thi-gian-PS5">
             <div class="auto-group-ndwj-L6R">
-              <div class="input-field-Qry">
-                <div class="lead-icon-text-YiH">
-                  <div class="cursor-text-uHw">namcaptures@outlook.com</div>
-                </div>
-              </div>
+              <input class="input-field-Qry" value="namcaptures@outlook.com">
             </div>
           </div>
           <div class="thi-gian-Piu">
             <div class="auto-group-dhro-jXs">
-              <select class="input-field-pJR" autofocus> Chủ hộ
-                <option>Chủ hộ</option>
-                <option>Vợ</option>
-                <option>Chồng</option>
-                <option>Con</option>
-                <div class="lead-icon-text-vcM">Chủ hộ</div>
-                <img class="icon-fill-caret-small-down-DrM" src="./assets/icon-fill-caret-small-down-7o3.png"/>
-              </select>
+              <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Chủ hộ">
+              <datalist id="myDatalist">
+                <option value="Chủ hộ">
+                <option value="Thành viên">
+              </datalist>
             </div>
           </div>
         </div>
@@ -156,6 +130,11 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+
 </script>
 
 </body>

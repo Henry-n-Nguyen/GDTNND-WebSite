@@ -45,8 +45,25 @@
       </div>
     </div>
     <div class="content-d7B">
-      <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
-        <p class="btn-chart-content">Thống kê</p>
+      <div class="top-container-button">
+        <div class="top-left-button">
+          <!-- <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Tầng 2">
+          <datalist id="myDatalist">
+            <option value="Tầng 1">
+            <option value="Tầng 2">
+            <option value="Tầng 3">
+            <option value="Tầng 4">
+            <option value="Tầng 5">
+            <option value="Tầng 6">
+            <option value="Tầng 7">
+            <option value="Tầng 8">
+            <option value="Tầng 9">
+            <option value="Tầng 10">
+          </datalist> -->
+        </div>
+        <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
+          <p class="btn-chart-content">Thống kê</p>
+        </div>
       </div>
       <div class="frame-citizens-infos-8bf">
         <div class="auto-group-dxjb-HDf">
@@ -119,6 +136,10 @@
       document.getElementById("nav-01").style.display = "none";
       nav1 = (nav1 + 1) % 2;
     }
+  });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
   });
 </script>
 

@@ -861,7 +861,7 @@ body {
   flex-shrink: 0;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf {
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
   width: 100%;
   align-items: center;
   display: flex;
@@ -1164,6 +1164,9 @@ body {
   border: solid 0.1rem #775652;
   background-color: #ffffff;
   border-radius: 2rem;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq .frame-turn-back-button-UHT:hover {
+  border: 2px solid black;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .button-vWq .frame-turn-back-button-UHT .corner-down-left-QS1 {
   margin: 0rem 1.333rem 0rem 0rem;
