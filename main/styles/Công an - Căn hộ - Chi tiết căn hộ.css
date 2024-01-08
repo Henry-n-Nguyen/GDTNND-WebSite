@@ -453,7 +453,7 @@ body {
   box-sizing: border-box;
   padding: 0rem 1rem 2rem 0rem;
   width: 100%;
-  row-gap: 2rem;
+  row-gap: 1rem;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -525,7 +525,7 @@ body {
   box-sizing: border-box;
   padding: 2rem 0 2rem 1rem;
   width: 100%;
-  height: 4.4rem;
+  height: 6.4rem;
   cursor: pointer;
   overflow: hidden;
   position: relative;
@@ -534,6 +534,9 @@ body {
   border-bottom: solid 0.1rem #808080;
   border-radius: 0.3rem;
   flex-shrink: 0;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu:hover {
+  background-color: #cccccc;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .frame-citizens-infos-8bf .auto-group-dxjb-HDf .header-hAu .c1-Qb7 {
   margin: 0rem 0.3rem 0.4rem 0rem;

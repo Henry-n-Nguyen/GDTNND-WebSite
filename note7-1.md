@@ -1,5 +1,5 @@
 ## v.đề h.tại 
-1. ALL Trang chủ, sang trang 2, ít nhất 2 dòng bấm được `(Đã xong)`
+1. ALL Trang chủ, sang trang 2, ít nhất 2 dòng bấm được `(Cần kiểm tra lại từ công an)`
 1. Nút primary đổi sang màu primary `(Đã xong cần check lại)`
 1. Thêm hover cho dòng trong danh sách 
 1. Hover cho nút 
@@ -30,6 +30,9 @@ from `datepicker` to `datepicker` - *icon tim kiem*
 1. Chỉnh các logic khi bấm thanh toán sẽ thay đổi đường dẫn đến các trang
 1. Thiết kế các trang thống kê
 1. Thiết kế các trang về Quên mật khẩu
+1. Công an căn hộ chi tiết căn hộ - thêm navigate cho từng dòng căn hộ -> chi tiết căn hộ
+1. Công an căn hộ chi tiết cư dân - thêm navigate cho từng dòng cư dân -> chi tiết cư dân
+1. Cư dân hóa đơn trang 2 cần thêm dữ liệu
 
 
 
