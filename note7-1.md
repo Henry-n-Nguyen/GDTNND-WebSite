@@ -1,7 +1,7 @@
 ## v.đề h.tại 
 1. ALL Trang chủ, sang trang 2, ít nhất 2 dòng bấm được `(Cần kiểm tra lại từ công an)`
 1. Nút primary đổi sang màu primary `(Đã xong cần check lại)`
-1. Thêm hover cho dòng trong danh sách 
+1. Thêm hover cho dòng trong danh sách `(Xong, thiếu đấu báo Hiệp)`
 1. Hover cho nút 
 1. màu icon trên nút primary 
 1. cho dữ liệu vào phản ánh (các role)
