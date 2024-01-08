@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>  
   <link rel="stylesheet" href="./styles/Quản lý - Căn hộ - Thêm cư dân.css"/>
 </head>
 <body>
@@ -66,65 +67,49 @@
         <div class="frame-info-Nyb">
           <div class="thi-gian-uid">
             <div class="auto-group-tt4h-ew7">
-              <div class="input-field-8LV">
-                <div class="lead-icon-text-fLR"></div>
-              </div>
+              <input class="input-field-8LV">                
             </div>
           </div>
           <div class="thi-gian-XtR">
             <div class="auto-group-agsq-59F">
-              <div class="input-field-McZ">
-                <div class="lead-icon-text-4Wy"></div>
-                <img class="icon-fill-caret-small-down-Apu" src="./assets/icon-fill-caret-small-down-g1b.png"/>
-              </div>
+              <input class="input-field-McZ" type="date">
             </div>
           </div>
           <div class="thi-gian-TZ7">
             <div class="auto-group-gvqh-oN5">
-              <div class="input-field-GWZ">
-                <div class="lead-icon-text-nzh">P101</div>
-              </div>
+              <input class="input-field-GWZ" value="P101">
             </div>
           </div>
           <div class="thi-gian-5D7">
             <div class="auto-group-pked-28M">
-              <div class="input-field-JrZ">
-                <div class="lead-icon-text-F17"></div>
-              </div>
+              <input class="input-field-JrZ">
             </div>
           </div>
           <div class="thi-gian-Wxd">
             <div class="auto-group-tycy-4UM">
-              <div class="input-field-YPX">
-                <div class="lead-icon-text-UY5"></div>
-              </div>
+              <input class="input-field-YPX">
             </div>
           </div>
           <div class="thi-gian-9eD">
             <div class="auto-group-9bk9-gu3">
-              <div class="input-field-mQh">
-                <div class="lead-icon-text-JfX"></div>
-              </div>
+              <input class="input-field-mQh">
             </div>
           </div>
           <div class="thi-gian-PS5">
             <div class="auto-group-ndwj-L6R">
-              <div class="input-field-Qry">
-                <div class="lead-icon-text-YiH">
-                  <div class="cursor-text-uHw"></div>
-                </div>
-              </div>
+              <input class="input-field-Qry">
             </div>
           </div>
           <div class="thi-gian-Piu">
             <div class="auto-group-dhro-jXs">
-              <div class="input-field-pJR">
-                <div class="lead-icon-text-vcM"></div>
-                <img class="icon-fill-caret-small-down-DrM" src="./assets/icon-fill-caret-small-down-7o3.png"/>
-              </div>
+              <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Chủ hộ">
+              <datalist id="myDatalist">
+                <option value="Chủ hộ">
+                <option value="Thành viên">
+              </datalist>
             </div>
           </div>
-        </div>
+        </div> 
       </div>
       <div class="button-vVs">
         <div class="frame-turn-back-button-fiM">
@@ -136,4 +121,11 @@
     </div>
   </div>
 </div>
+
+<script>
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+</script>
+
 </body>

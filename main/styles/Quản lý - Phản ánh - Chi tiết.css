@@ -613,7 +613,7 @@ body {
     align-items: center;
     justify-content: center;
     border: solid 0.1rem #c9c9c9;
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
   }
@@ -681,7 +681,6 @@ body {
     width: 100%;
     height: 4.4rem;
     position: relative;
-    background-color: #ffffff;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .auto-group-s5q7-hoB .label-text-GLV {
     width: 9.1rem;
@@ -696,18 +695,19 @@ body {
     font-family: Quicksand, 'Source Sans Pro';
     white-space: nowrap;
   }
-  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .auto-group-s5q7-hoB .input-field-z1b {
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB  .input-field-z1b {
     box-sizing: border-box;
-    padding: 1.2rem 1.8rem 1.2rem 1.2rem;
-    width: 40.6rem;
+    padding: 1rem 1rem 1rem 1rem;
+    width: 30rem;
     height: 4.4rem;
     position: absolute;
-    left: 0;
-    top: 0;
     display: flex;
     align-items: center;
     border: solid 0.2rem #000000;
+    background-color: #ffffff;
     border-radius: 0.8rem;
+    color: black;
+    font-size: 2.4rem;  
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .auto-group-s5q7-hoB .input-field-z1b .lead-icon-text-u8Z {
     margin-right: 13.75rem;

@@ -87,25 +87,12 @@
         
         </p>
         <div class="frame-slide-bar-QZB">
-          <div class="auto-group-s5q7-hoB">
-            <div class="input-field-z1b">
-              <div class="lead-icon-text-u8Z">Đang xử lý</div>
-              <img class="icon-fill-caret-small-down-CNZ" src="./assets/icon-fill-caret-small-down-YLm.png"/>
-            </div>
-          </div>
-          <div class="rectangle-77-uXs">
-          </div>
-          <p class="cha-x-l-ang-x-l-x-l-dTs">
-          Chưa xử lý
-          <br/>
-          
-          <br/>
-          Đang xử lý
-          <br/>
-          
-          <br/>
-          Đã xử lý
-          </p>
+          <input class="input-field-z1b" type="text" list="myDatalist" id="myInput" value="Chưa xử lý">
+            <datalist id="myDatalist">
+              <option value="Chưa xử lý">
+              <option value="Đang xử lý">
+              <option value="Đã xử lý">
+            </datalist>
         </div>
       </div>
       <div class="frame-bottom-buttons-3hw">
@@ -134,6 +121,10 @@
       document.getElementById("nav-01").style.display = "none";
       nav1 = (nav1 + 1) % 2;
     }
+  });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
   });
 </script>
 

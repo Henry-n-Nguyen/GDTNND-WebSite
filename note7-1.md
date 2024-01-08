@@ -1,6 +1,6 @@
 ## v.đề h.tại 
-1. ALL Trang chủ, sang trang 2, ít nhất 2 dòng bấm được 
-1. Nút primary đổi sang màu primary 
+1. ALL Trang chủ, sang trang 2, ít nhất 2 dòng bấm được `(Đã xong)`
+1. Nút primary đổi sang màu primary `(Đã xong cần check lại)`
 1. Thêm hover cho dòng trong danh sách 
 1. Hover cho nút 
 1. màu icon trên nút primary 
@@ -23,6 +23,13 @@ from `datepicker` to `datepicker` - *icon tim kiem*
 1. thống kê 
 `select box` : năm/tháng/ngày -- `datepicker` chọn ngày bắt đầu của chuỗi 3 năm/tháng 
 **Theo 3 năm/tháng/ngày**
+1. Thêm các Pop-up thành công hoặc thất bại cho các trang
+1. Thêm hiệu ứng bấm cho chọn ngân hàng `Cư dân thanh toán 02` 
+1. Chỉnh sửa tất cả input của tất cả màn hình
+1. Thêm các pattern cho các input ở thanh toán 03 `(Đã xong)`
+1. Chỉnh các logic khi bấm thanh toán sẽ thay đổi đường dẫn đến các trang
+1. Thiết kế các trang thống kê
+1. Thiết kế các trang về Quên mật khẩu
 
 
 

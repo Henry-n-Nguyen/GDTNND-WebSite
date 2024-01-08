@@ -55,12 +55,10 @@
     <div class="frame-3982-vn1">
       <div class="frame-3976-ei1">Nhập thông tin thẻ</div>
       <img class="image-3-jUZ" src="./assets/image-3-Sof.png"/>
-      <div class="frame-3978-413">
-        <p class="nhp-s-th-PxR">Nhập số thẻ</p>
-      </div>
+      <input id="card-number" class="frame-3978-413" placeholder="Nhập số thẻ" maxlength="19">
       <div class="frame-3980-1D7">
-        <div class="frame-3978-jeu">Tên ghi trên thẻ</div>
-        <div class="frame-3979-RGq">Ngày hết hạn</div>
+        <input id="card-name" class="frame-3978-jeu" placeholder="Tên ghi trên thẻ">
+        <input id="expired-date" class="frame-3979-RGq" placeholder="Ngày hết hạn" maxlength="5">
       </div>
       <p class="bng-vic-nhn-vo-nt-thanh-ton-ngay-bn-ng-rng-giao-dch-ny-l-khng-hon-khng-hy-WJH">Bằng việc nhấn vào nút Thanh toán ngay, Bạn đồng ý rằng giao dịch này là không hoàn, không hủy.</p>
     </div>
@@ -82,6 +80,40 @@
       document.getElementById("nav-01").style.display = "none";
       nav1 = (nav1 + 1) % 2;
     }
+  });
+
+  document.getElementById("expired-date").addEventListener("input", function() {
+    const value = this.value;
+
+    if (value.length === 2 && value[value.length - 1] !== "/") {
+      this.value = value + "/";
+    }
+
+    if (value.length === 3 && value[value.length - 1] === "/") {
+      this.value = value.substring(0, value.length - 1);
+    }  
+  });
+
+  document.getElementById("card-number").addEventListener("input", function() {
+    const value = this.value;
+
+    if ((value.length === 4 || value.length === 9 || value.length === 14) && value[value.length - 1] !== " ") {
+      this.value = value + " ";
+    }
+
+    if ((value.length === 5 || value.length === 10 || value.length === 15) && value[value.length - 1] === " ") {
+      this.value = value.substring(0, value.length - 1);
+    }
+  });
+
+  document.getElementById("card-name").addEventListener("input", function() {
+    const value = this.value;
+
+    if (!/[A-Za-z ]/.test(value[value.length - 1])) {
+      this.value = value.substring(0, value.length - 1);
+    }
+
+    this.value = this.value.toUpperCase();
   });
 </script>
 

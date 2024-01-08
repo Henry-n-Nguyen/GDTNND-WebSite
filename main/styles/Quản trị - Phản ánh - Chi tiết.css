@@ -741,18 +741,18 @@ body {
     font-family: Quicksand, 'Source Sans Pro';
     white-space: nowrap;
   }
-  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .auto-group-s5q7-hoB .input-field-z1b {
+  .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .input-field-z1b {
     box-sizing: border-box;
     padding: 1.2rem 1.8rem 1.2rem 1.2rem;
     width: 40.6rem;
     height: 4.4rem;
     position: absolute;
-    left: 0;
-    top: 0;
     display: flex;
     align-items: center;
     border: solid 0.2rem #000000;
     border-radius: 0.8rem;
+    color: #000000;
+    font-size: 2.4rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-state--ve1 .frame-slide-bar-QZB .auto-group-s5q7-hoB .input-field-z1b .lead-icon-text-u8Z {
     margin-right: 13.75rem;

@@ -416,6 +416,7 @@ body {
   background-color: #ffffff;
   border-radius: 2rem;
   flex-shrink: 0;
+  font-size: 2.4rem;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .frame-3982-vn1 .frame-3978-413 .nhp-s-th-PxR {
   margin: 0rem 75.2rem 0.1rem 0rem;
@@ -451,7 +452,7 @@ body {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.6666666667;
-  color: #cccccc;
+  color: black;
   font-family: Lato, 'Source Sans Pro';
   white-space: nowrap;
   border: solid 0.1rem #000000;
@@ -468,7 +469,7 @@ body {
   font-size: 2.4rem;
   font-weight: 400;
   line-height: 0.6666666667;
-  color: #cccccc;
+  color: black;
   font-family: Lato, 'Source Sans Pro';
   white-space: nowrap;
   display: flex;
@@ -536,7 +537,7 @@ body {
   white-space: nowrap;
   border: solid 0.1rem #ffffff;
   box-sizing: border-box;
-  background-color: #775652;
+  background-color: #9b1212;
   border-radius: 2rem;
   flex-shrink: 0;
 }

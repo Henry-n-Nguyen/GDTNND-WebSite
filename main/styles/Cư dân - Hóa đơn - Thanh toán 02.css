@@ -498,7 +498,7 @@ body {
     font-size: 2.4rem;
     font-weight: 400;
     line-height: 0.8;
-    color: #cccccc;
+    color: black;
     font-family: Lato, 'Source Sans Pro';
     white-space: nowrap;
     border: solid 0.1rem #000000;
@@ -540,7 +540,7 @@ body {
     top: 0;
     border: solid 0.1rem #000000;
     box-sizing: border-box;
-    background-color: #e8d6d4;
+    background-color: #ffffff;
     border-radius: 2rem 2rem 0 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-nzfp-Syj .frame-3957-PPB .frame-3956-pDb .ngn-hng-BNu .auto-group-8hid-7GZ .frame-3895-dkh .rectangle-82-4r1 {
@@ -605,7 +605,7 @@ body {
     top: 0;
     border: solid 0.1rem #000000;
     box-sizing: border-box;
-    background-color: #e8d6d4;
+    background-color: #ffffff;
     border-radius: 2rem 2rem 0 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-nzfp-Syj .frame-3957-PPB .frame-3956-pDb .ngn-hng-BNu .auto-group-8hid-7GZ .frame-3898-6gD .rectangle-82-ZJu {
@@ -946,7 +946,7 @@ body {
     font-family: Lato, 'Source Sans Pro';
     white-space: nowrap;
     box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
     cursor: pointer;

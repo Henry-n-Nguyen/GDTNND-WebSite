@@ -602,6 +602,7 @@ body {
     height: 6.4rem;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .frame-turn-back-buttons-bUZ {
@@ -646,13 +647,13 @@ body {
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-bottom-buttons-3hw .right-button-M6M .frame-change-buttons-JXP {
     margin-right: 2rem;
     box-sizing: border-box;
-    padding: 1rem 0.8rem 1rem 1.375rem;
+    padding: 1rem 1rem 1rem 1.375rem;
     height: 100%;
     cursor: pointer;
     display: flex;
     align-items: center;
     border: solid 0.1rem #c9c9c9;
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
   }

@@ -432,6 +432,9 @@ body {
     box-sizing: border-box;
     background-color: #ffffff;
     flex-shrink: 0;
+    color: black;
+    font-size: 2.4rem;
+    padding: 0 1rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-r15p-1BB .frame-153-XfK .frame-3968-9wb .frame-3967-1yo .rectangle-76-hrd {
     width: 96%;
@@ -440,6 +443,9 @@ body {
     box-sizing: border-box;
     background-color: #ffffff;
     flex-shrink: 0;
+    color: black;
+    font-size: 2.4rem;
+    padding: 0 1rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-r15p-1BB .frame-153-XfK .frame-3968-9wb .frame-3967-1yo .rectangle-74-rDj {
     width: 96%;
@@ -448,6 +454,9 @@ body {
     box-sizing: border-box;
     background-color: #ffffff;
     flex-shrink: 0;
+    color: black;
+    font-size: 2.4rem;
+    padding: 1rem 1rem;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-r15p-1BB .button-y3T {
     margin: 0rem 2.6rem 0rem 1.5rem;
@@ -566,7 +575,7 @@ body {
     align-items: center;
     justify-content: center;
     border: solid 0.1rem #c9c9c9;
-    background-color: #775652;
+    background-color: #9b1212;
     border-radius: 2rem;
     flex-shrink: 0;
   }
