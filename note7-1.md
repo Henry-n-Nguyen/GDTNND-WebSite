@@ -3,11 +3,11 @@
 1. Nút primary đổi sang màu primary `(Đã xong cần check lại)`
 1. Thêm hover cho dòng trong danh sách `(Xong, thiếu đấu báo Hiệp)`
 1. Hover cho nút 
-1. màu icon trên nút primary 
+1. màu icon trên nút primary `(bỏ icon)`
 1. cho dữ liệu vào phản ánh (các role)
 1. phản ánh `Chi tiết phản ánh` -> $Tiêu đề 
 1. Phản ánh sang trang 2 
-1. Đăng xuất href sai 
+1. Đăng xuất href sai `(Đã sửa, có thể có thiểu số)`
 1. Thông tin người dùng góc trên phải (tên -> cccd)
 1. Căn hộ - QL - thiếu thêm người (nút)
 1. Thêm người : bỏ nghề nghiệp, thêm trường mật khẩu 
@@ -40,7 +40,8 @@ from `datepicker` to `datepicker` - *icon tim kiem*
 1. Khi thêm khoản phí -> cư dân hiện khoản phí lên (json // thêm kp -> thêm vào đầu)
     1. Json bind trang đầu (cả ql + cư dân)
 
-1. Chủ hộ là nữ, thêm loại quan hệ với chủ hộ
+1. Chủ hộ là nữ, thêm loại quan hệ với chủ hộ `(Đề xuất chỉ 2 role Chủ hộ và Thành viên)`
+
 1. Tạo phí: upload csv 
     1. chọn file upload 
     1. pop-up thành công hay format lỗi 
