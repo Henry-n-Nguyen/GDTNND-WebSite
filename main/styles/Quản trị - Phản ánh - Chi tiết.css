@@ -426,13 +426,13 @@ body {
     flex-shrink: 0;
   }
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .auto-group-2usw-yTs .frame-citizen-infos-Wih .auto-group-k8hb-SsF .frame-3850-CE9 .c1-8tV {
-    margin-bottom: 2.9rem;
-    font-size: 2.8rem;
-    font-weight: 600;
-    line-height: 1.2;
-    text-decoration-line: underline;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 1.2125;
     color: #000000;
-    font-family: Lato, 'Source Sans Pro';
+    font-family: Inter, 'Source Sans Pro';
     white-space: nowrap;
     flex-shrink: 0;
   }
