@@ -329,9 +329,11 @@ body {
     box-sizing: border-box;
     padding: 1.5rem 2.05rem;
     width: 100%;
+    height: calc(100vh - 10rem);
     overflow: hidden;
     position: relative;
     align-items: center;
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
@@ -339,7 +341,7 @@ body {
   .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-91P .form-sxy {
     margin: 0rem 2rem 0rem 2rem;
     width: calc(100% - 3.9rem);
-    height: 56.2rem;
+    height: 50.2rem;
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
