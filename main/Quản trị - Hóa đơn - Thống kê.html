@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+  <script
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+  </script>
 <head>
   <meta charset="utf-8" />
   <link rel="icon" href="/favicon.ico" />
@@ -67,7 +70,24 @@
         </div> -->
       </div>
       <div class="chart-img-container">
-        <img class="chart-img" src="./assets/Quanly-Hoadon-Chart.png" alt="">
+        <!-- <img class="chart-img" src="./assets/Quanly-Hoadon-Chart.png" alt=""> -->
+        <canvas id="hoaDonThang10" style="width:100%;max-width:1034px;height: 452px;"></canvas>
+        <script>
+          const xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31];
+          const yValues = [0,0,0,0,0,0,0,0,0,10995000,2270000,2400000,2460000,2380000,0,2480000,2340000,0,0,4820000,2340000,0,4680000,0,0,7090000,2420000,2410000,200000,5300000,0,0];
+          new Chart("hoaDonThang10", {
+            type: "line",
+            data: {
+              labels: xValues,
+              datasets: [{
+                label:'Số tiền thu(VND)',
+                borderColor: '#9B1212',
+                data: yValues,
+                fill:false
+              }]
+            },
+          });
+        </script>
       </div>
       <div class="button-vWq">
         <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Hóa đơn.html'">

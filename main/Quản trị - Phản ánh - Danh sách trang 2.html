@@ -5,13 +5,13 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Quản lý - Phản ánh</title>
+  <title>Quản trị - Phản ánh</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
-  <link rel="stylesheet" href="./styles/Quản lý - Phản ánh.css"/>
+  <link rel="stylesheet" href="./styles/Quản trị - Phản ánh.css"/>
 </head>
 <body>
 <div class="trang-ch-cng-dn-CH3">
@@ -19,19 +19,15 @@
     <img class="logo-5Lq" src="./assets/Logo.png">
     <div class="auto-group-dcnh-EDj">
       <div class="navigate-xvR">
-        <div class="trang-ch--72d" onclick="window.location.href = './Quản\ lý\ -\ Trang chủ.html'">
+        <div class="trang-ch--72d" onclick="window.location.href = './Quản trị - Trang chủ.html'">
           <img class="icon-home-Sah" src="./assets/icon-Home.png"/>
           <div class="trang-ch-xJ9">Trang chủ </div>
         </div>
-        <div class="cn-h-Fo3" onclick="window.location.href = './Quản\ lý\ -\ Căn hộ.html'">
-          <img class="icon-user-circle-alt-yyw" src="./assets/icon-Resident.png"/>
-          <div class="cn-h-hf3">Căn hộ</div>
-        </div>
-        <div class="ha-n-RL9" onclick="window.location.href = './Quản\ lý\ -\ Hóa đơn.html'">
+        <div class="ha-n-RL9" onclick="window.location.href = './Quản trị - Hóa đơn.html'">
           <img class="icon-wallet-xL5" src="./assets/icon-Fee.png"/>
           <div class="ha-n-UJR">Hóa đơn</div>
         </div>
-        <div class="phn-nh-QC5" onclick="window.location.href = './Quản\ lý\ -\ Phản ánh.html'">
+        <div class="phn-nh-QC5" onclick="window.location.href = './Quản trị - Phản ánh.html'">
           <img class="icon-message-text-wSu" src="./assets/icon-Complain.png"/>
           <div class="phn-nh-fdo">Phản ánh</div>
         </div>
@@ -46,14 +42,21 @@
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
           <p class="id-number-or-worker-number-K81">20205205</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <div id="nav-01" class="avatar-navigate">
+          <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
+        </div>
       </div>
     </div>
     <div class="content-d7B">
       <div class="top-container-button">
         <div class="top-left-button">
-          <input class="input-field-pJR" placeholder="Tìm kiếm" id="myInput">
-          <img class="img-btn" id="myButton" src="./assets/lookup-btn.png" alt="">
+          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
+          <datalist id="myDatalist">
+            <option value="Năm">
+            <option value="Tháng">
+            <option value="Ngày">
+          </datalist>
         </div>
         <div class="top-right-button">
           <!-- <div class="btn-chart" onclick="window.location.href = './Quản lý - Hóa đơn - Thống kê.html'">
@@ -69,28 +72,28 @@
             <p class="c3-2qT">Trạng thái</p>
           </div>
           <div class="header-hAu" onclick="window.location.href='./Quản lý - Phản ánh - Chi tiết.html'">
-            <p class="c1-Qb7">Tiếng ồn tại P201</p>
-            <p class="c2-LDs">31/10/2023</p>
+            <p class="c1-Qb7">Tiếng ồn tại P302</p>
+            <p class="c2-LDs">21/6/2023</p>
             <div class="frame-3838-oNM">Đã xử lý</div>
           </div>
           <div class="header-hAu">
-            <p class="c1-Qb7">Vấn đề điện tại P101</p>
-            <p class="c2-LDs">15/9/2023</p>
+            <p class="c1-Qb7">Vấn đề điện tại P401</p>
+            <p class="c2-LDs">4/6/2023</p>
             <div class="frame-3838-oNM">Đã xử lý</div>
           </div>
           <div class="header-hAu">
-            <p class="c1-Qb7">Tìm chó lạc</p>
-            <p class="c2-LDs">10/8/2023</p>
+            <p class="c1-Qb7">Tìm điện thoại mất</p>
+            <p class="c2-LDs">19/3/2023</p>
             <div class="frame-3838-oNM">Đã xử lý</div>
           </div>
           <div class="header-hAu">
-            <p class="c1-Qb7">Vệ sinh chung cư</p>
-            <p class="c2-LDs">5/7/2023</p>
+            <p class="c1-Qb7">Vấn nạn xả rác</p>
+            <p class="c2-LDs">19/3/2023</p>
             <div class="frame-3838-oNM">Đã xử lý</div>
           </div>
           <div class="header-hAu">
-            <p class="c1-Qb7">Vấn đề gửi xe</p>
-            <p class="c2-LDs">22/6/2023</p>
+            <p class="c1-Qb7">Mất điện tại P305</p>
+            <p class="c2-LDs">26/2/2023</p>
             <div class="frame-3838-oNM">Đã xử lý</div>
           </div>
         </div>
@@ -98,18 +101,33 @@
           <div class="frame-16-bNu">
             <p class="previous-LrH">Previous</p>
             <div class="frame-15-HFj">1</div>
-            <div class="frame-16-HFj"><a href="./Quản lý - Phản ánh - Đã xử lý - Danh sách trang 2.html">2</a></div>
+            <div class="frame-16-HFj">2</div>
             <p class="next-yeM">Next</p>
           </div>
         </div>
       </div>
       <div class="button-vWq">
-        <!-- <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản\ lý\ -\ Trang chủ.html'">
+        <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Trang chủ.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
           <p class="quay-li-8N1">Quay lại</p>
-        </div> -->
+        </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+</script>
+
 </body>
