@@ -53,16 +53,16 @@
       <div class="frame-citizen-infos-Wih">
         <div class="auto-group-k8hb-SsF">
           <div class="frame-3849-C5j">
+            <p class="c1-vGdd">Số phòng:</p>
+            <p class="c1-rg55">P101</p>
+          </div>
+          <div class="frame-3849-C5j">
             <p class="c1-vGd">Họ và tên:</p>
             <p class="c1-rg5">Trương Văn Nam </p>
           </div>
           <div class="frame-3849-C5j">
             <p class="c1-vGd">Ngày sinh:</p>
             <p class="c1-rg5">29/10/1985</p>
-          </div>
-          <div class="frame-3849-C5j">
-            <p class="c1-vGd">Nơi ở:</p>
-            <p class="c1-rg5">P101</p>
           </div>
           <div class="frame-3849-C5j">
             <p class="c1-vGd">CCCD:</p>
@@ -87,14 +87,26 @@
           <img class="corner-down-left-iZB" src="./assets/corner-down-left-PTB.png"/>
           <p class="quay-li-dw3" >Quay lại</p>
         </div>
-        <div class="right-button-M6M" onclick="window.location.href='./Quản lý - Căn hộ - Chỉnh sửa cư dân.html'">
-          <div class="frame-change-buttons-JXP">
+        <div class="right-button-M6M" >
+          <div class="frame-change-buttons-JXP" onclick="window.location.href='./Quản lý - Căn hộ - Chỉnh sửa cư dân.html'">
             <p class="chnh-sa-B5P">Chỉnh sửa</p>
           </div>
-          <div class="frame-delete-button-gnq">Xóa</div>
+          <div class="frame-delete-button-gnq" onclick="deleted()">Xóa</div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<script>
+  function deleted() {
+    const answer = confirm("Bạn có thực sự muốn xóa chứ ? Dữ liệu sẽ không thể khôi phục lại !");
+
+    if (answer) {
+      alert("Xóa thành công");
+      window.location.href='./Quản lý - Căn hộ - Chi tiết căn hộ - Đã xóa.html'
+    }
+  }
+</script>
+
 </body>

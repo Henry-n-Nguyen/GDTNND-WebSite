@@ -67,68 +67,68 @@
             <img class="image-2-Xvd" src="./assets/image-2-pTX.png"/>
           </div>
           <div class="tm-ngn-hng-4vZ">
-            <p class="tm-ngn-hng-PT3">Tìm ngân hàng</p>
-            <input class="frame-3898-vSy" placeholder="Nhập tên ngân hàng">
+            <p class="tm-ngn-hng-PT3" id="myBank1">Tìm ngân hàng</p>
+            <input class="frame-3898-vSy" placeholder="Nhập tên ngân hàng" id="myInput">
           </div>
           <div class="ngn-hng-BNu">
             <div class="auto-group-8hid-7GZ">
-              <div class="frame-3895-dkh">
+              <div class="frame-3895-dkh" id="myBank">
                 <div class="rectangle-83-MRo">
                 </div>
-                <div class="rectangle-82-4r1">
+                <div class="rectangle-82-4r1" id="myContainer">
                 </div>
-                <p class="vpbank-mkR">VPBank</p>
+                <p class="vpbank-mkR" id="myText">VPBank</p>
                 <p class="item-200000--fqo">200.000 đ</p>
                 <img class="rectangle-84-y5o" src="./assets/rectangle-84-BFT.png"/>
               </div>
-              <div class="frame-3898-6gD">
+              <div class="frame-3898-6gD" id="myBank2">
                 <div class="rectangle-83-dw3">
                 </div>
-                <div class="rectangle-82-ZJu">
+                <div class="rectangle-82-ZJu" id="myContainer2">
                 </div>
-                <p class="vietinbank-TQH">VietinBank</p>
+                <p class="vietinbank-TQH" id="myText2">VietinBank</p>
                 <p class="item-200000--NGM">200.000 đ</p>
                 <img class="rectangle-84-UKP" src="./assets/rectangle-84-M5P.png"/>
               </div>
             </div>
             <div class="auto-group-8hid-7GZ">
-              <div class="frame-3895-dkh">
+              <div class="frame-3895-dkh" id="myBank3">
                 <div class="rectangle-83-MRo">
                 </div>
-                <div class="rectangle-82-4r1">
+                <div class="rectangle-82-4r1" id="myContainer3">
                 </div>
-                <p class="vpbank-mkR">VPBank</p>
+                <p class="vpbank-mkR" id="myText3">TPBank</p>
                 <p class="item-200000--fqo">200.000 đ</p>
-                <img class="rectangle-84-y5o" src="./assets/rectangle-84-BFT.png"/>
+                <img class="rectangle-84-y5o" src="./assets/TPBank.png"/>
               </div>
-              <div class="frame-3898-6gD">
+              <div class="frame-3898-6gD" id="myBank4">
                 <div class="rectangle-83-dw3">
                 </div>
-                <div class="rectangle-82-ZJu">
+                <div class="rectangle-82-ZJu" id="myContainer4">
                 </div>
-                <p class="vietinbank-TQH">VietinBank</p>
+                <p class="vietinbank-TQH" id="myText4">Agribank</p>
                 <p class="item-200000--NGM">200.000 đ</p>
-                <img class="rectangle-84-UKP" src="./assets/rectangle-84-M5P.png"/>
+                <img class="rectangle-84-UKP" src="./assets/Agribank.png"/>
               </div>
             </div>
             <div class="auto-group-8hid-7GZ">
-              <div class="frame-3895-dkh">
+              <div class="frame-3895-dkh"  id="myBank5">
                 <div class="rectangle-83-MRo">
                 </div>
-                <div class="rectangle-82-4r1">
+                <div class="rectangle-82-4r1" id="myContainer5">
                 </div>
-                <p class="vpbank-mkR">VPBank</p>
+                <p class="vpbank-mkR" id="myText5">BIDV</p>
                 <p class="item-200000--fqo">200.000 đ</p>
-                <img class="rectangle-84-y5o" src="./assets/rectangle-84-BFT.png"/>
+                <img class="rectangle-84-y5o" src="./assets/BIDV.png"/>
               </div>
               <div class="frame-3898-6gD">
-                <div class="rectangle-83-dw3">
+                <div class="rectangle-83-dw3"  id="myBank6">
                 </div>
-                <div class="rectangle-82-ZJu">
+                <div class="rectangle-82-ZJu" id="myContainer6">
                 </div>
-                <p class="vietinbank-TQH">VietinBank</p>
+                <p class="vietinbank-TQH" id="myText6">Sacombank</p>
                 <p class="item-200000--NGM">200.000 đ</p>
-                <img class="rectangle-84-UKP" src="./assets/rectangle-84-M5P.png"/>
+                <img class="rectangle-84-UKP" src="./assets/Sacombank.png"/>
               </div>
             </div>
           </div>
@@ -151,6 +151,61 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  var i = 0;
+  document.getElementById("myBank").addEventListener("click", function() {
+    i = i % 2;
+    if (i == 0) {
+        document.getElementById("myContainer").style.backgroundColor = "#9b1212";
+        document.getElementById("myText").style.color = "white";
+    } else {
+        document.getElementById("myContainer").style.backgroundColor = "#d6d6d6";
+        document.getElementById("myText").style.color = "rgba(0, 0, 0, 0.5)";
+    }
+    i++;
+  });
+
+  var j = 0;
+  document.getElementById("myBank1").addEventListener("click", function() {
+    j = j % 2;
+    if (j == 0) {
+        document.getElementById("myContainer").style.backgroundColor = "#9b1212";
+        document.getElementById("myText").style.color = "white";
+        document.getElementById("myInput") = "";
+    } else {
+        document.getElementById("myContainer").style.backgroundColor = "#d6d6d6";
+        document.getElementById("myText").style.color = "rgba(0, 0, 0, 0.5)";
+        document.getElementById("myInput").value = "";
+    }
+    j++;
+  });
+
+  var i2 = 0;
+  document.getElementById("myBank2").addEventListener("click", function() {
+    i2 = i2 % 2;
+    if (i2 == 0) {
+        document.getElementById("myContainer2").style.backgroundColor = "#9b1212";
+        document.getElementById("myText2").style.color = "white";
+    } else {
+        document.getElementById("myContainer2").style.backgroundColor = "#d6d6d6";
+        document.getElementById("myText2").style.color = "rgba(0, 0, 0, 0.5)";
+    }
+    i2++;
+  });
+
+  var i3 = 0;
+  document.getElementById("myBank3").addEventListener("click", function() {
+    i3 = i3 % 2;
+    if (i3 == 0) {
+        document.getElementById("myContainer3").style.backgroundColor = "#9b1212";
+        document.getElementById("myText3").style.color = "white";
+    } else {
+        document.getElementById("myContainer3").style.backgroundColor = "#d6d6d6";
+        document.getElementById("myText3").style.color = "rgba(0, 0, 0, 0.5)";
+    }
+    i3++;
+  });
+  
 </script>
 
 </body>

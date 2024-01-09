@@ -66,37 +66,37 @@
         <div class="frame-info-Nyb">
           <div class="thi-gian-uid">
             <div class="auto-group-tt4h-ew7">
-              <input class="input-field-8LV">                
+              <input class="input-field-8LV" id="name">                
             </div>
           </div>
           <div class="thi-gian-XtR">
             <div class="auto-group-agsq-59F">
-              <input class="input-field-McZ" type="date">
+              <input class="input-field-McZ" type="date" id="dob">
             </div>
           </div>
           <div class="thi-gian-TZ7">
             <div class="auto-group-gvqh-oN5">
-              <input class="input-field-GWZ" value="P101">
+              <input class="input-field-GWZ" value="P101" id="apart">
             </div>
           </div>
           <div class="thi-gian-5D7">
             <div class="auto-group-pked-28M">
-              <input class="input-field-JrZ">
+              <input class="input-field-JrZ" id="cccd">
             </div>
           </div>
           <div class="thi-gian-9eD">
             <div class="auto-group-9bk9-gu3">
-              <input class="input-field-mQh">
+              <input class="input-field-mQh" id="phone">
             </div>
           </div>
           <div class="thi-gian-PS5">
             <div class="auto-group-ndwj-L6R">
-              <input class="input-field-Qry">
+              <input class="input-field-Qry" id="">
             </div>
           </div>
           <div class="thi-gian-Piu">
             <div class="auto-group-dhro-jXs">
-              <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Thành viên">
+              <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Thành viên" id="relate">
               <datalist id="myDatalist">
                 <option value="Chủ hộ">
                 <option value="Thành viên">
@@ -121,7 +121,7 @@
           <img class="corner-down-left-hf3" src="./assets/corner-down-left-SRj.png"/>
           <p class="quay-li-Rb3">Quay lại</p>
         </div>
-        <div class="frame-3852-Xe5">Xác nhận</div>
+        <div class="frame-3852-Xe5" onclick="created()">Xác nhận</div>
       </div>
     </div>
   </div>
@@ -131,6 +131,25 @@
   document.getElementById("myInput").addEventListener("click", function() {
     this.value = "";
   });
+
+  function created() {
+    const name = document.getElementById("name").value;
+    const dob = document.getElementById("dob").value;
+    const apart = document.getElementById("apart").value;
+    const cccd = document.getElementById("cccd").value;
+    const phone = document.getElementById("phone").value;
+    // const relate = document.getElementById("relate").value;
+
+    if (name == "" || dob == "" || apart == "" || cccd == "" || phone == "") alert("Hãy điền các trường cần thiết")
+    else {
+      const answer = confirm("Bạn có thực sự muốn thêm thành viên mới chứ ? Cần sự cho phép từ chủ hộ !");
+
+      if (answer) {
+        alert("Thêm thành viên thành công");
+        window.location.href='./Quản lý - Hóa đơn - Đã thêm.html'
+      }
+    }
+  }
 </script>
 
 </body>

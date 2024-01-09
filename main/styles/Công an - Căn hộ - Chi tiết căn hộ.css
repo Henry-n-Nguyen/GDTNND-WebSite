@@ -378,6 +378,8 @@ body {
   overflow: hidden;
   position: relative;
   display: flex;
+  height: calc(100vh - 10rem);
+  justify-content: space-between;
   flex-direction: column;
   flex-shrink: 0;
 }

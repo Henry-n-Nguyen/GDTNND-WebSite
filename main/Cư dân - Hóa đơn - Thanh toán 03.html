@@ -62,9 +62,9 @@
       </div>
       <p class="bng-vic-nhn-vo-nt-thanh-ton-ngay-bn-ng-rng-giao-dch-ny-l-khng-hon-khng-hy-WJH">Bằng việc nhấn vào nút Thanh toán ngay, Bạn đồng ý rằng giao dịch này là không hoàn, không hủy.</p>
     </div>
-    <div class="button-xRB" onclick="check()">
-      <div class="frame-turn-back-button-5kh" onclick="window.location.href='./Cư dân - Hóa đơn - Chi tiết.html'">Hủy</div>
-      <div class="frame-3855-Zfs">Thanh toán</div>
+    <div class="button-xRB">
+      <div class="frame-turn-back-button-5kh" onclick="cancel()">Hủy</div>
+      <div class="frame-3855-Zfs" onclick="check()">Thanh toán</div>
     </div>
   </div>
 </div>
@@ -124,9 +124,19 @@
     if (expiredDate == "" || cardName == "" || cardNumber == "") {
       alert("Hãy nhập đủ các trường cần thiết")
     } else {
-      alert("Thanh toán thành công");
-      window.location.href = './Cư dân - Hóa đơn - Chi tiết - Đã thanh toán.html';
+      const answer = confirm("Bạn chắc chứ ? Giao dịch sẽ không được hoàn trả !");
+
+      if (answer) {
+        alert("Thanh toán thành công");
+        window.location.href = './Cư dân - Hóa đơn - Chi tiết - Đã thanh toán.html';
+      }
     }
+  }
+
+  function cancel() {
+    const answer = confirm("Bạn có muốn thoát không ? Nội dung sẽ không được lưu !");
+
+    if (answer) window.location.href='./Cư dân - Hóa đơn - Chi tiết.html'
   }
 </script>
 

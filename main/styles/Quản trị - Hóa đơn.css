@@ -853,6 +853,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 1rem 0;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .top-container-button .top-left-button .img-btn {
+  width: 4.4rem;
+  height: 4.4rem;
+  margin-left: 1rem;
+}
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .top-container-button .top-left-button .img-btn:hover {
+  border: 2px solid black;
+  border-radius: 1rem;
 }
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .top-container-button .top-left-button .input-field-pJR {
   box-sizing: border-box;

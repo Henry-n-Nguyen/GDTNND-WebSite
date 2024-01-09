@@ -428,6 +428,9 @@ body {
   font-family: Inter, 'Source Sans Pro';
   background-color: #775652;
 }
+.trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .top-container-button .btn-chart .btn-chart-content:hover {
+  background-color: #775652;
+}
 .trang-ch-cng-dn-CH3 .frame-header-and-content-wDw .content-d7B .chart-img-container {
   width: 100%;
   display: flex;

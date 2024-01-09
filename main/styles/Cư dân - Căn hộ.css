@@ -377,7 +377,9 @@ body {
   width: calc(100% - 1.1rem);
   overflow: hidden;
   position: relative;
+  height: calc(100vh - 10rem);
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   flex-shrink: 0;
 }

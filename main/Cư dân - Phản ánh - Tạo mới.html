@@ -120,7 +120,7 @@
       </div>
       <div class="right-button-M6M">
         <div class="frame-change-buttons-JXP">
-          <p class="chnh-sa-B5P">Xác nhận</p>
+          <p class="chnh-sa-B5P" onclick="created()">Xác nhận</p>
         </div>
       </div>
     </div>
@@ -141,6 +141,20 @@
   });
 
   document.getElementById("my-textarea").scrollTop = 0;
+
+  function created() {
+    
+    const answer = confirm("Bạn có thực sự muốn tạo phản ánh chứ ? Phản ánh sẽ không thể thu hồi !");
+
+    if (answer) {
+      alert("Tạo phản ánh thành công");
+      window.location.href='./Cư dân - Phản ánh - Đã thêm.html'
+    }
+  }
+
+document.getElementById("myInput").addEventListener("click", function() {
+  this.value = "";
+});
 </script>
 
 </body>

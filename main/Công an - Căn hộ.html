@@ -47,26 +47,12 @@
     <div class="content-d7B">
       <div class="top-container-button">
         <div class="top-left-button">
-          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Tầng 2">
-          <datalist id="myDatalist">
-            <option value="Tầng 1">
-            <option value="Tầng 2">
-            <option value="Tầng 3">
-            <option value="Tầng 4">
-            <option value="Tầng 5">
-            <option value="Tầng 6">
-            <option value="Tầng 7">
-            <option value="Tầng 8">
-            <option value="Tầng 9">
-            <option value="Tầng 10">
-          </datalist>
-        </div>
-        <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
-          <p class="btn-chart-content">Thống kê</p>
+          <input class="input-field-pJR" placeholder="Tìm kiếm" id="myInput">
+          <img class="img-btn" id="myButton" src="./assets/lookup-btn.png" alt="">
         </div>
       </div>
       <div class="frame-citizens-infos-8bf">
-        <div class="auto-group-dxjb-HDf">
+        <div class="auto-group-dxjb-HDf" id="myList">
           <div class="header-QZB">
             <p class="c1-wp1">Căn hộ</p>
             <p class="c2-Hss">Nhân khẩu</p>
@@ -110,16 +96,16 @@
             <div class="frame-16-HFj"><a href="">7</a></div>
             <div class="frame-16-HFj"><a href="">8</a></div>
             <div class="frame-16-HFj"><a href="">9</a></div>
-            <div class="frame-16-HFj"><a href="">1</a>0</div>
+            <div class="frame-16-HFj"><a href="">10</a></div>
             <p class="next-yeM">Next</p>
           </div>
         </div>
       </div>
       <div class="button-vWq">
-        <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Công an - Trang chủ.html'">
+        <!-- <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Công an - Trang chủ.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
           <p class="quay-li-8N1">Quay lại</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -137,6 +123,15 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  document.getElementById("myButton").addEventListener("click", function() {
+    const list = document.getElementById("myList");
+    const input = document.getElementById("myInput");
+
+    if (input.value == "P1") list.innerHTML = '<div class="header-QZB"> <p class="c1-wp1">Căn hộ</p> <p class="c2-Hss">Nhân khẩu</p> <p class="c3-2qT">Trạng thái</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P101</p> <p class="c2-LDs">3</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P102</p> <p class="c2-LDs">4</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P103</p> <p class="c2-LDs">2</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P104</p> <p class="c2-LDs">2</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P105</p> <p class="c2-LDs">5</p> <p class="c3-fX3">Cư trú</p> </div>'
+    else if (input.value == "P2") list.innerHTML = '<div class="header-QZB"> <p class="c1-wp1">Căn hộ</p> <p class="c2-Hss">Nhân khẩu</p> <p class="c3-2qT">Trạng thái</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P201</p> <p class="c2-LDs">2</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P202</p> <p class="c2-LDs">1</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P203</p> <p class="c2-LDs">2</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P204</p> <p class="c2-LDs">4</p> <p class="c3-fX3">Cư trú</p> </div> <div class="header-hAu"> <p class="c1-Qb7">P205</p> <p class="c2-LDs">4</p> <p class="c3-fX3">Cư trú</p> </div>'
+    else list.innerHTML = "";
+  })
 </script>
 
 </body>

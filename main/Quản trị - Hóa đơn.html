@@ -51,24 +51,17 @@
     <div class="content-d7B">
       <div class="top-container-button">
         <div class="top-left-button">
-          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
-          <datalist id="myDatalist">
-            <option value="Năm">
-            <option value="Tháng">
-            <option value="Ngày">
-          </datalist>
+          <input class="input-field-pJR" placeholder="Tìm kiếm" id="myInput">
+          <img class="img-btn" id="myButton" src="./assets/lookup-btn.png" alt="">
         </div>
         <div class="top-right-button">
-          <!-- <div class="btn-chart" onclick="window.location.href = './Quản lý - Hóa đơn - Tạo mới.html'">
-            <p class="btn-chart-content">Tạo khoản thu</p>
-          </div> -->
           <div class="btn-chart" onclick="window.location.href = './Quản trị - Hóa đơn - Thống kê.html'">
             <p class="btn-chart-content">Thống kê</p>
           </div>
         </div>
       </div>
       <div class="frame-citizens-infos-8bf">
-        <div class="auto-group-dxjb-HDf">
+        <div class="auto-group-dxjb-HDf" id="mylist">
           <div class="header-QZB">
             <p class="c1-wp1">Loại phí</p>
             <p class="c2-Hss">Số tiền</p>
@@ -124,10 +117,10 @@
         </div>
       </div>
       <div class="button-vWq">
-        <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Hóa đơn.html'">
+        <!-- <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Hóa đơn.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
           <p class="quay-li-8N1">Quay lại</p>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -144,6 +137,14 @@
       document.getElementById("nav-01").style.display = "none";
       nav1 = (nav1 + 1) % 2;
     }
+  });
+
+  document.getElementById("myButton").addEventListener("click", function() {
+    const list = document.getElementById("myList");
+    const input = document.getElementById("myInput");
+
+    if (input.value == "Phí vệ sinh") list.innerHTML = '<div class="header-QZB"> <p class="c1-wp1">Loại phí</p> <p class="c2-Hss">Số tiền</p> <p class="c3-2qT">Hạn nộp</p> <p class="c4-n3w">Trạng thái</p> </div> <div class="header-hAu"> <p class="c1-Qb7">Phí vệ sinh</p> <p class="c2-LDs">200.000đ</p> <p class="c3-fX3">31/10/2023</p> <div class="frame-3838-oNM01">Chưa t/toán</div> </div> <div class="header-hAu"> <p class="c1-Qb7">Phí vệ sinh</p> <p class="c2-LDs">200.000đ</p> <p class="c3-fX3">31/10/2023</p> <div class="frame-3838-oNM">Đã t/toán</div></div> <div class="header-hAu"> <p class="c1-Qb7">Phí vệ sinh</p> <p class="c2-LDs">200.000đ</p> <p class="c3-fX3">31/10/2023</p> <div class="frame-3838-oNM">Đã t/toán</div></div> <div class="header-hAu"> <p class="c1-Qb7">Phí vệ sinh</p> <p class="c2-LDs">200.000đ</p> <p class="c3-fX3">31/10/2023</p> <div class="frame-3838-oNM">Đã t/toán</div></div> <div class="header-hAu"> <p class="c1-Qb7">Phí vệ sinh</p> <p class="c2-LDs">200.000đ</p> <p class="c3-fX3">31/10/2023</p> <div class="frame-3838-oNM">Đã t/toán</div></div>'
+    else list.innerHTML = "";
   });
 </script>
 

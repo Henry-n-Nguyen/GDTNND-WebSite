@@ -62,6 +62,10 @@
           <br/>
 
           <br/>
+          Đơn vị
+          <br/>
+
+          <br/>
           Thời hạn
           <br/>
 
@@ -70,18 +74,27 @@
           <br/>
           </p>
           <div class="frame-3967-1yo">
-            <input class="rectangle-75-mCH">
-            <input class="rectangle-76-hrd">
+            <input class="rectangle-75-mCH" id="text1">
+            <input class="rectangle-76-hrd" id="text2">
+            <input class="rectangle-77-mCH" type="text" list="myDatalist" id="myInput" value="Chưa xử lý">
+            <datalist id="myDatalist">
+              <option value="$ / người / hộ">
+              <option value="$ / hộ">
+            </datalist>
             <div class="container-rectangle-77-mCH">
               <input id="date-start" class="rectangle-77-mCH" type="date">
               <input id="date-end" class="rectangle-77-mCH" type="date">
             </div>
-            <textarea id="my-textarea" class="rectangle-74-rDj"></textarea>
+            <textarea id="my-textarea" class="rectangle-74-rDj" id="text3"></textarea>
           </div>
           <p class="tn-ng-k-thu-vat-ghi-ch-hiDD">
             (*)
             <br/>
             
+            <br/>
+            (*)
+            <br/>
+
             <br/>
             (*)
             <br/>
@@ -104,7 +117,7 @@
       </div>
       <div class="right-button-M6M">
         <div class="frame-change-buttons-JXP">
-          <p class="chnh-sa-B5P">Xác nhận</p>
+          <p class="chnh-sa-B5P" onclick="created()">Xác nhận</p>
         </div>
       </div>
     </div>
@@ -113,6 +126,20 @@
 
 <script>
   document.getElementById("my-textarea").scrollTop = 0;
+
+  function created() {
+    
+      const answer = confirm("Bạn có thực sự muốn tạo khoản thu chứ ? Khoản thu sẽ không thể bị xóa !");
+
+      if (answer) {
+        alert("Tạo khoản thu thành công");
+        window.location.href='./Quản lý - Hóa đơn - Đã thêm.html'
+      }
+  }
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
 </script>
 
 </body>
