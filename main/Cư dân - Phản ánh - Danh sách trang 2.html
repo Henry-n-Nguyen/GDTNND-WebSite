@@ -53,9 +53,17 @@
       </div>
     </div>
     <div class="content-d7B">
-      <div class="frame-appartment-basic-infos-L1b">
-        <div class="frame-3844-GpM">
-          <p class="c1-STw">Chưa rõ định dạng filter </p>
+      <div class="top-container-button">
+        <div class="top-left-button">
+          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
+          <datalist id="myDatalist">
+            <option value="Tháng 1">
+            <option value="Tháng 12">
+            <option value="Tháng 11">
+          </datalist>
+        </div>
+        <div class="btn-chart" onclick="window.location.href = './Cư dân - Phản ánh - Tạo mới.html'">
+          <p class="btn-chart-content">Tạo phản ánh</p>
         </div>
       </div>
       <div class="frame-citizens-infos-8bf">
@@ -122,6 +130,11 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+
 </script>
 
 </body>
