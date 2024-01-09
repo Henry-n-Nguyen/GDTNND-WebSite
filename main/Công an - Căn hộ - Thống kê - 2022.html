@@ -67,13 +67,14 @@
       </div>
       <div class="chart-img-container">
         <!-- <img class="chart-img" src="./assets/Quanly-Canho-Chart.png" alt=""> -->
-        <canvas id="danCu2023" style="width:100%;max-width:1034px;height: 452px;"></canvas>
+        <!-- Biểu đồ -->
+        <canvas id="danCu2022" style="width:100%;max-width:1034px;height: 452px;"></canvas>
         <script>
           const xValues =  [1,2,3,4,5,6,7,8,9,10,11,12];
-          const yValues =  [2,0,0,0,2,3,0,0,0,4 ,3 ,0 ];
-          const y2Values = [1,1,0,0,0,0,2,0,2,0 ,0 ,0];
+          const yValues =  [0,3,2,2,1,0,3,2,2,1 ,0 ,0];
+          const y2Values = [1,1,0,3,0,0,1,0,0,0 ,0 ,0];
 
-          new Chart("danCu2023", {
+          new Chart("danCu2022", {
             type: "line",
             data: {
               labels: xValues,

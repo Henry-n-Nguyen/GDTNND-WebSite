@@ -8,13 +8,13 @@
   <link rel="icon" href="/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <title>Công an - Căn hộ - Thống kê</title>
+  <title>Quản trị - Hóa đơn - Thống kê</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A400%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C500%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato%3A400%2C600%2C700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans%3A700"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A500"/>
-  <link rel="stylesheet" href="./styles/Công an - Căn hộ - Thống kê.css"/>
+  <link rel="stylesheet" href="./styles/Quản trị - Hóa đơn - Thống kê.css"/>
 </head>
 <body>
 <div class="trang-ch-cng-dn-CH3">
@@ -22,20 +22,24 @@
     <img class="logo-5Lq" src="./assets/Logo.png">
     <div class="auto-group-dcnh-EDj">
       <div class="navigate-xvR">
-        <div class="trang-ch--72d" onclick="window.location.href = './Công an - Trang chủ.html'">
+        <div class="trang-ch--72d" onclick="window.location.href = './Quản trị - Trang chủ.html'">
           <img class="icon-home-Sah" src="./assets/icon-Home.png"/>
           <div class="trang-ch-xJ9">Trang chủ </div>
         </div>
-        <div class="cn-h-Fo3" onclick="window.location.href = './Công an - Căn hộ.html'">
-          <img class="icon-user-circle-alt-yyw" src="./assets/icon-Resident.png"/>
-          <div class="cn-h-hf3">Căn hộ</div>
+        <div class="ha-n-RL9" onclick="window.location.href = './Quản trị - Hóa đơn.html'">
+          <img class="icon-wallet-xL5" src="./assets/icon-Fee.png"/>
+          <div class="ha-n-UJR">Hóa đơn</div>
+        </div>
+        <div class="phn-nh-QC5" onclick="window.location.href = './Quản trị - Phản ánh.html'">
+          <img class="icon-message-text-wSu" src="./assets/icon-Complain.png"/>
+          <div class="phn-nh-fdo">Phản ánh</div>
         </div>
       </div>
     </div>
   </div>
   <div class="frame-header-and-content-wDw">
     <div class="frame-header-rrh">
-      <p class="trang-ch-Bty">Căn hộ - Thống kê</p>
+      <p class="trang-ch-Bty">Căn hộ </p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
           <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
@@ -66,27 +70,20 @@
         </div> -->
       </div>
       <div class="chart-img-container">
-        <!-- <img class="chart-img" src="./assets/Quanly-Canho-Chart.png" alt=""> -->
-        <canvas id="danCu2023" style="width:100%;max-width:1034px;height: 452px;"></canvas>
+        <!-- <img class="chart-img" src="./assets/Quanly-Hoadon-Chart.png" alt=""> -->
+        <!-- Biểu đồ -->
+        <canvas id="hoaDonThang9" style="width:100%;max-width:1034px;height: 452px;"></canvas>
         <script>
-          const xValues =  [1,2,3,4,5,6,7,8,9,10,11,12];
-          const yValues =  [2,0,0,0,2,3,0,0,0,4 ,3 ,0 ];
-          const y2Values = [1,1,0,0,0,0,2,0,2,0 ,0 ,0];
-
-          new Chart("danCu2023", {
+          const xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30];
+          const yValues = [0,0,0,0,0,0,0,0,0,2265000,0,0,0,0,14110000,0,2460000,0,4660000,0,9450000,0,0,0,4660000,0,0,6075000,0,4920000];
+          new Chart("hoaDonThang9", {
             type: "line",
             data: {
               labels: xValues,
               datasets: [{
-                label:'Số người đến ở',
+                label:'Số tiền thu(VND) tháng 9',
                 borderColor: '#9B1212',
                 data: yValues,
-                fill:false
-              },
-              {
-                label:'Số người rời đi',
-                borderColor: '#000000',
-                data: y2Values,
                 fill:false
               }]
             },
@@ -94,7 +91,7 @@
         </script>
       </div>
       <div class="button-vWq">
-        <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Công an - Căn hộ.html'">
+        <div class="frame-turn-back-button-UHT"onclick="window.location.href = './Quản trị - Hóa đơn.html'">
           <img class="corner-down-left-QS1" src="./assets/corner-down-left-d5w.png"/>
           <p class="quay-li-8N1">Quay lại</p>
         </div>
@@ -115,11 +112,6 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
-
-  document.getElementById("myInput").addEventListener("click", function() {
-    this.value = "";
-  });
-
 </script>
 
 </body>
