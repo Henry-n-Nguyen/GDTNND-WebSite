@@ -42,10 +42,10 @@
       <p class="trang-ch-Bty">Căn hộ </p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
-          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
-          <p class="id-number-or-worker-number-K81">20205205</p>
+          <p class="name-and-first-name-bSu">Nguyễn Thị Lan</p>
+          <p class="id-number-or-worker-number-K81">198634567890</p>
         </div>
-        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/avatar-female.png">
         <div id="nav-01" class="avatar-navigate">
           <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
         </div>
@@ -61,7 +61,7 @@
             <option value="Ngày">
           </datalist>
           <input class="input-field-pJR" type="date" id="myDate">
-          <div class="btn-chart" onclick="window.location.href = ''">
+          <div class="btn-chart" onclick="show()">
             <img class="img-btn" src="./assets/lookup-btn.png" alt="">
           </div>
         </div>
@@ -111,6 +111,19 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  function show() {
+    const date = new Date(document.getElementById("myDate").value)
+    const month = date.getMonth() + 1;
+
+    if (month == 10) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang10.html";
+    } else if (month == 11) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang11.html";
+    } else if (month == 12) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang12.html";
+    }
+  }
 </script>
 
 </body>

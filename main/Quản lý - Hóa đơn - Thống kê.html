@@ -46,10 +46,10 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
       <p class="trang-ch-Bty">Hóa đơn - Thống kê</p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
-          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
-          <p class="id-number-or-worker-number-K81">20205205</p>
+          <p class="name-and-first-name-bSu">Hoàng Lê Minh</p>
+          <p class="id-number-or-worker-number-K81">897465138461</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img class="user-avatar-qc9" src="./assets/avatar-male.png">
       </div>
     </div>
     <div class="content-d7B">
@@ -62,7 +62,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
             <option value="Ngày">
           </datalist>
           <input class="input-field-pJR" type="date" id="myDate">
-          <div class="btn-chart" onclick="window.location.href = ''">
+          <div class="btn-chart" onclick="show()">
             <img class="img-btn" src="./assets/lookup-btn.png" alt="">
           </div>
         </div>
@@ -99,4 +99,35 @@ src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
     </div>
   </div>
 </div>
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+
+  function show() {
+    const date = new Date(document.getElementById("myDate").value)
+    const month = date.getMonth() + 1;
+
+    if (month == 10) {
+      window.location.href = "./Quản lý - Hóa đơn - Thống kê - Thang10.html";
+    } else if (month == 11) {
+      window.location.href = "./Quản lý - Hóa đơn - Thống kê - Thang11.html";
+    } else if (month == 12) {
+      window.location.href = "./Quản lý - Hóa đơn - Thống kê - Thang12.html";
+    }
+  }
+
+</script>
 </body>

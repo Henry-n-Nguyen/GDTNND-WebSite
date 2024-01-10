@@ -38,10 +38,10 @@
       <p class="trang-ch-Bty">Căn hộ - Thống kê</p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
-          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
-          <p class="id-number-or-worker-number-K81">20205205</p>
+          <p class="name-and-first-name-bSu">Trương Văn Long</p>
+          <p class="id-number-or-worker-number-K81">657647656578</p>
         </div>
-        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/avatar-male.png">
         <div id="nav-01" class="avatar-navigate">
           <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
         </div>
@@ -50,14 +50,14 @@
     <div class="content-d7B">
       <div class="top-container-button">
         <div class="top-left-button">
-          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="">
+          <input class="input-field-pJR" type="text" list="myDatalist" id="myInput" value="Năm">
           <datalist id="myDatalist">
             <option value="Năm">
             <option value="Tháng">
             <option value="Ngày">
           </datalist>
           <input class="input-field-pJR" type="date" id="myDate">
-          <div class="btn-chart" onclick="window.location.href = ''">
+          <div class="btn-chart" onclick="show()">
             <img class="img-btn" src="./assets/lookup-btn.png" alt="">
           </div>
         </div>
@@ -120,6 +120,18 @@
   document.getElementById("myInput").addEventListener("click", function() {
     this.value = "";
   });
+
+  function show() {
+    const date = document.getElementById("myDate").value
+
+    if (date.includes("2023")) {
+      window.location.href = "./Công an - Căn hộ - Thống kê - 2023.html";
+    } else if (date.includes("2022")) {
+      window.location.href = "./Công an - Căn hộ - Thống kê - 2022.html";
+    } else if (date.includes("2021")) {
+      window.location.href = "./Công an - Căn hộ - Thống kê - 2021.html";
+    }
+  }
 
 </script>
 

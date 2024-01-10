@@ -46,10 +46,10 @@
       <p class="trang-ch-Bty">Căn hộ - Thống kê</p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
-          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
-          <p class="id-number-or-worker-number-K81">20205205</p>
+          <p class="name-and-first-name-bSu">Hoàng Lê Minh</p>
+          <p class="id-number-or-worker-number-K81">897465138461</p>
         </div>
-        <img class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img class="user-avatar-qc9" src="./assets/avatar-male.png">
       </div>
     </div>
     <div class="content-d7B">
@@ -66,7 +66,7 @@
             <img class="img-btn" src="./assets/lookup-btn.png" alt="">
           </div>
         </div>
-        <!-- <div class="btn-chart" onclick="window.location.href = './Công an - Căn hộ - Thống kê.html'">
+        <!-- <div class="btn-chart" onclick="window.location.href = './Quản lý - Căn hộ - Thống kê.html'">
           <p class="btn-chart-content">Thống kê</p>
         </div> -->
       </div>
@@ -108,4 +108,34 @@
     </div>
   </div>
 </div>
+<script>
+  var nav1 = 0;
+
+  document.getElementById("avatar").addEventListener("click", function() {
+    if (nav1 == 0) {
+      document.getElementById("nav-01").style.display = "block";
+      nav1 = (nav1 + 1) % 2;
+    } else {
+      document.getElementById("nav-01").style.display = "none";
+      nav1 = (nav1 + 1) % 2;
+    }
+  });
+
+  document.getElementById("myInput").addEventListener("click", function() {
+    this.value = "";
+  });
+
+  function show() {
+    const date = document.getElementById("myDate").value
+
+    if (date.includes("2023")) {
+      window.location.href = "./Quản lý - Căn hộ - Thống kê - 2023.html";
+    } else if (date.includes("2022")) {
+      window.location.href = "./Quản lý - Căn hộ - Thống kê - 2022.html";
+    } else if (date.includes("2021")) {
+      window.location.href = "./Quản lý - Căn hộ - Thống kê - 2021.html";
+    }
+  }
+
+</script>
 </body>

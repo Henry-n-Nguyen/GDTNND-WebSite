@@ -42,10 +42,10 @@
       <p class="trang-ch-Bty">Căn hộ </p>
       <div class="group-user-info-upy">
         <div class="auto-group-fzdf-fZF">
-          <p class="name-and-first-name-bSu">Mai Nguyễn Ngọc Huy</p>
-          <p class="id-number-or-worker-number-K81">20205205</p>
+          <p class="name-and-first-name-bSu">Nguyễn Thị Lan</p>
+          <p class="id-number-or-worker-number-K81">198634567890</p>
         </div>
-        <img id="avatar" class="user-avatar-qc9" src="./assets/User-avatar.png">
+        <img id="avatar" class="user-avatar-qc9" src="./assets/avatar-female.png">
         <div id="nav-01" class="avatar-navigate">
           <div class="navigate" onclick="window.location.href = './Đăng\ Nhập.html'">Đăng xuất</div>
         </div>
@@ -61,7 +61,7 @@
             <option value="Ngày">
           </datalist>
           <input class="input-field-pJR" type="date" id="myDate">
-          <div class="btn-chart" onclick="window.location.href = ''">
+          <div class="btn-chart" onclick="show()">
             <img class="img-btn" src="./assets/lookup-btn.png" alt="">
           </div>
         </div>
@@ -71,16 +71,17 @@
       </div>
       <div class="chart-img-container">
         <!-- <img class="chart-img" src="./assets/Quanly-Hoadon-Chart.png" alt=""> -->
-        <canvas id="hoaDonThang10" style="width:100%;max-width:1034px;height: 452px;"></canvas>
+        <!-- Biểu đồ -->
+        <canvas id="hoaDonThang8" style="width:100%;max-width:1034px;height: 452px;"></canvas>
         <script>
           const xValues = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31];
-          const yValues = [0,0,0,0,0,0,0,0,0,10995000,2270000,2400000,2460000,2380000,0,2480000,2340000,0,0,4820000,2340000,0,4680000,0,0,7090000,2420000,2410000,200000,5300000,0,0];
-          new Chart("hoaDonThang10", {
+          const yValues = [0,0,0,0,0,0,0,10330000,0,2395000,0,2460000,6575000,2400000,2395000,0,2265000,0,2395000,2365000,2330000,2460000,2200000,130000,0,9320000,0,0,0,2460000,4790000];
+          new Chart("hoaDonThang8", {
             type: "line",
             data: {
               labels: xValues,
               datasets: [{
-                label:'Số tiền thu(VND) tháng 10',
+                label:'Số tiền thu(VND) tháng 8',
                 borderColor: '#9B1212',
                 data: yValues,
                 fill:false
@@ -111,6 +112,19 @@
       nav1 = (nav1 + 1) % 2;
     }
   });
+
+  function show() {
+    const date = new Date(document.getElementById("myDate").value)
+    const month = date.getMonth() + 1;
+
+    if (month == 10) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang10.html";
+    } else if (month == 11) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang11.html";
+    } else if (month == 12) {
+      window.location.href = "./Quản trị - Hóa đơn - Thống kê - Thang12.html";
+    }
+  }
 </script>
 
 </body>
